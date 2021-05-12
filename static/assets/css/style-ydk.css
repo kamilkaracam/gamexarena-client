@@ -1,0 +1,416 @@
+@font-face {
+  font-family: 'Space-Comics';
+  src: url('../fonts/SpaceComics.woff2') format('woff2'),
+  url('../fonts/SpaceComics.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ZonaPro';
+  src: url('../fonts/ZonaPro.woff2') format('woff2'),
+  url('../fonts/ZonaPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn-kml{
+  color: #ff0000!important;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#counter-css .vuejs-countdown {
+  padding: 0;
+  margin: 0;
+}
+
+#counter-css .vuejs-countdown li {
+  display: inline-block;
+  margin: 0 0 !important;
+  text-align: center;
+  position: relative;
+  background: #37C098 !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+}
+
+#counter-css .vuejs-countdown li p {
+  color: #ffffff !important;
+  margin-bottom: 0 !important;
+  background: #23826B !important;
+  text-align: center !important;
+  padding: 5px;
+  min-width: 55px !important;
+}
+
+#counter-css .vuejs-countdown li:after {
+  content: "" !important;
+  position: absolute;
+  top: 0;
+  right: -13px;
+  font-size: 32px;
+}
+
+#counter-css .vuejs-countdown li:first-of-type {
+  margin-left: 0;
+}
+
+#counter-css .vuejs-countdown li:last-of-type {
+  margin-right: 0;
+}
+
+#counter-css .vuejs-countdown li:last-of-type:after {
+  content: "";
+}
+
+#counter-css .vuejs-countdown .digit {
+  font-size: 32px !important;
+  font-weight: 600 !important;;
+  line-height: 1.4 !important;;
+  margin-bottom: 0 !important;;
+}
+
+#counter-css .vuejs-countdown .text {
+  text-transform: uppercase !important;;
+  margin-bottom: 0 !important;;
+  font-size: 10px !important;;
+}
+
+#welcomePage .slider {
+  padding-right: 0 !important;
+  background: #17270f;
+  overflow-x: hidden;
+}
+
+#welcomePage .countdown {
+  background: #ffffff !important;
+}
+
+#welcomePage .slider .col-md-3 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#welcomePage .logo {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+#welcomePage .slider h1 {
+  margin: 0 !important;
+  font-size: 18px !important;
+  font-family: 'Space-Comics';
+  line-height: 2;
+  color: #17270f !important;
+  margin-bottom: 0 !important;
+}
+
+#welcomePage .slider h2 {
+  margin: 0 !important;
+  font-size: 30px !important;
+  line-height: 2;
+  color: #17270f !important;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#welcomePage .slider p {
+  margin: 0 !important;
+  font-size: 18px !important;
+  line-height: 2;
+  color: #17270f !important;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 50px !important;
+}
+
+#welcomePage .slider h3 {
+  margin: 0 !important;
+  font-size: 32px !important;
+  line-height: 2;
+  color: #17270f !important;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#welcomePage .slider h4 {
+  margin: 0 !important;
+  font-size: 18px !important;
+  line-height: 2;
+  color: #17270f !important;
+  text-align: left;
+  margin-bottom: 40px !important;
+}
+
+.games {
+  background: #17270f;
+  position: relative;
+  bottom: 0;
+  height: 10vh;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-register, .btn-login {
+  background-color: #17270f !important;
+  border: none !important;
+  margin-top: 40px;
+  color: #ffffff !important;
+}
+
+.btn-register:hover, .btn-login:hover {
+  background-color: #17270f;
+}
+
+.how-it-works .coins {
+  text-align: center;
+}
+
+.how-it-works .coins .row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.how-it-works h1 {
+  padding-top: 20px;
+}
+
+.how-it-works p {
+  font-size: 20px;
+  padding-top: 10%;
+  font-weight: 700;
+  text-align: left;
+}
+
+.how-it-works .gold-coin {
+  width: 125px;
+  height: 150px;
+}
+
+.how-it-works .silver-coin {
+  width: 100px;
+  height: 125px;
+}
+
+.how-it-works .bronze-coin {
+  width: 75px;
+  height: 100px;
+}
+
+#loginForm label, #registerForm label {
+  font-family: 'ZonaPro';
+  color: #17270f;
+}
+
+#loginForm a, #registerForm a {
+  font-family: 'ZonaPro';
+  color: #17270f;
+  font-size: 10px;
+}
+
+#loginForm a:hover {
+  text-decoration: none;
+}
+
+#loginForm .login-button, #registerForm .register-button {
+  background-color: #17270f;
+  font-family: 'ZonaPro';
+  color: #ffffff;
+  border: none;
+}
+
+#welcomePage #homePageFirstSlider img {
+  height: 90vh;
+}
+
+#welcomePage #homePageSecondSlider img {
+  height: 70vh;
+}
+
+#welcomePage .slider .col-md-9 {
+  -webkit-clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#welcomePage .how-it-works .second-slider {
+  -webkit-clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.games-mobile{
+  display: none;
+}
+
+.mobile-notification{
+  display: none;
+}
+
+
+@media (max-width: 1800px) {
+  #welcomePage .slider h1 {
+    margin: 0 !important;
+    font-size: 14px !important;
+    font-family: 'Space-Comics';
+    line-height: 2;
+    color: #17270f !important;
+    margin-bottom: 5% !important;
+  }
+
+  #clockdiv div > span {
+    padding: 10px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+  }
+
+  #welcomePage .slider p {
+    margin: 0 !important;
+    font-size: 14px !important;
+    line-height: 2;
+    color: #17270f !important;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 4% !important;
+  }
+
+  .btn-register, .btn-login {
+    background-color: #17270f;
+    border: none;
+    margin-top: 2%;
+    width: 100%;
+  }
+
+  #welcomePage .slider h3 {
+    margin: 0 !important;
+    font-size: 30px !important;
+    line-height: 2;
+    color: #17270f !important;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1430px) {
+  #welcomePage .slider h1 {
+    margin: 0 !important;
+    font-size: 10px !important;
+    font-family: 'Space-Comics';
+    line-height: 2;
+    color: #17270f !important;
+    margin-bottom: 5% !important;
+  }
+
+  #clockdiv div > span {
+    padding: 0px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+  }
+
+  #welcomePage .slider p {
+    margin: 0 !important;
+    font-size: 14px !important;
+    line-height: 2;
+    color: #17270f !important;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 4% !important;
+  }
+
+  .btn-register, .btn-login {
+    background-color: #17270f;
+    border: none;
+    margin-top: 2%;
+    width: 100%;
+  }
+
+  #welcomePage .slider h3 {
+    margin: 0 !important;
+    font-size: 30px !important;
+    line-height: 2;
+    color: #17270f !important;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .logo-div{
+    margin-bottom: 0!important;
+  }
+
+  #counter-css .vuejs-countdown li {
+    display: inline-block;
+    margin: 0 0 !important;
+    text-align: center;
+    position: relative;
+    background: #37C098 !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+  }
+
+  #welcomePage .slider{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+
+  #homePageFirstSlider{
+    display: none;
+  }
+
+  .w-first-left{
+    -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%) !important;
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%) !important;
+    background: red !important;
+  }
+
+  .games{
+    display: none !important;
+  }
+
+  .games-mobile{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: block !important;
+  }
+
+  .games-mobile img{
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .how-it-works p{
+    text-align: center!important;
+  }
+
+  #homePageSecondSlider{
+    display: none;
+  }
+
+  .desktop-notification{
+    display: none;
+  }
+
+  .mobile-notification{
+    display: block !important;
+  }
+
+}

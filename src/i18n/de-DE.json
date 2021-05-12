@@ -1,0 +1,652 @@
+{
+  "iso-code": "de",
+  "validations": {
+    "required": "{label} Wird benötigt",
+    "email": "Muss eine gültige E-Mail sein",
+    "minLength": "{label} muss mindestens  {min} Zeichen lang sein",
+    "maxLength": "{label} darf maximal {max} Zeichen lang sein",
+    "sameAs": "{label} muss dasselbe Passwort haben",
+    "alphaNum": "{label} akzeptiert nur alphanumerische Zeichen."
+  },
+  "inputs": {
+    "email": "E-mail",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "password": "Passwort",
+    "username": "Nutzername",
+    "birthday": "Geburtstag",
+    "birthmonth": "Geburtsmonat",
+    "birthyear": "Geburtsjahr",
+    "tournament": "Turnier",
+    "new_password": "Neues passwort",
+    "repeat_password": "Wiederhole das passwort",
+    "state": "Zustand/Provinz",
+    "postal_code": "Postleitzahl",
+    "city": "Stadt",
+    "country_id": "Land",
+    "gender": "Geschlecht",
+    "timezone_id": "Zeitzone"
+  },
+  "buttons": {
+    "SaveChanges": "Anderungen Speichern",
+    "ChangePassword": "Passwort andern",
+    "Save": "Sparen",
+    "Continue": "Fortfahren",
+    "AddMoney": "Add Money",
+    "Withdraw": "Auszahlen",
+    "Close": "Schließen"
+  },
+  "Withdraw": {
+    "Payment": "Auszahlungen werden Ihren Konto innerhalb von 1-5 Werktagen nach Ihrer Auszahlungsanfrage gutgeschrieben. Es könnte eine Bearbeitungsgebühr von 0,73 Cent fallen."
+  },
+  "Alert": {
+    "ChangePassword": "Ihr Passwort wurde erfolgreich geÂndert",
+    "PersonalDetails": "Ihre persönlichen Daten wurden aktualisiert.",
+    "CreateMatch": {
+      "PaymentRequired": "Payment required.",
+      "SelectPlatform":"Bitte wählen Sie eine Plattform aus, um fortfahren zu können.",
+      "SelectGame":"Bitte wählen Sie ein Spiel aus, um fortfahren zu können.",
+      "SelectWager":"Bitte wählen Sie Ihren Einsatz, um fortfahren zu können."
+    }
+  },
+  "Welcome": "WILLKOMMEN ZU GAMEARENA",
+  "VideoHeaders": {
+    "HowDoYouPlay": "WİE DU SPIELST",
+    "HowWeWork": "SO FUNKTIONIERT'S"
+  },
+  "Email":{
+    "Verify":"VERIFIZIEREN"
+  },
+  "SkillToCash": "Skill to Cash",
+  "SkillToCashDesc": "Verdiene Geld beim Spielen von Videospielen gegen andere Spieler der Welt In PC, XBOX oder PlayStation",
+  "CreateAccount": "Erstelle Konto",
+  "loginAccount": "Einloggen",
+  "UntilRelease": "bis zur Veröffentlichung",
+  "EarlyAccessMessage": "Erstellen Sie Ihr Konto um kostenlose Zugang auf die Turnier zu erhalten",
+  "Days": "Days",
+  "Hours": "Hours",
+  "Minutes": "Minutes",
+  "Seconds": "Seconds",
+  "HowItWorks": "Wie Funktioniert´s ?",
+  "HowItWorksStep1": "Finde den Gegner",
+  "HowItWorksStep2": "Spiel dein Game in deiner Arena Xbox ,PC oder Playstation",
+  "HowItWorksStep3": "Besiege deinen Gegner in deinem Spiel und Gewinne dein Geld",
+  "tournamentNotificationImage": "/static/assets/img/notification/de-big.png",
+  "OpeningModalImage": {
+    "base": "{BASE_URL}/static/assets/img/notification/de-big.png",
+    "sizes": "{BASE_URL}/static/assets/img/notification/de-big.png 1200w, {BASE_URL}/static/assets/img/notification/de-small.png 700w"
+  },
+  "ForgotPassword": "Ich habe mein Passwort vergessen?",
+  "AboutUsHeader": "Was ist Game X Arena",
+  "AboutUsText": "Game X Arena ist eine Videospielplattform für die Spieler, die nicht mehr für virtuelle Preise sondern reale Preise spielen wollen. Game X Arena gibt allen Gamern die Möglichkeit durch ihre Lieblingsvideospiel direkt Geld zu Gewinnen.Die Spieler kommen zu Game X Arena, um an Turnieren für Geld und tolle Preise  kostenlos teilzunehmen.",
+  "WhatIsGamexarenaQ": "Was ist Game X Arena?",
+  "WhatIsGamexarenaA": "Game X Arena ist eine Videospielplattform für die Spieler, die nicht mehr für virtuelle Preise sondern reale Preise spielen wollen. Game X Arena gibt allen Gamern die Möglichkeit durch ihre Lieblingsvideospiel direkt Geld zu Gewinnen.Die Spieler kommen zu Game X Arena, um an Turnieren für Geld und tolle Preise  kostenlos teilzunehmen.",
+  "HowDoISignUpQ": "Wie kann ich ein Konto erstellen ?",
+  "HowDoISignUpA": "Sie können eine Konto im  Game X Arena sehr einfach erstellen, indem Sie auf unserer Homepage auf „ Konto Erstellen“ klicken",
+  "DoesItCostQ": "Kostet die Anmeldung bei Game X Arena?",
+  "DoesItCostA": "Natürlich nicht! Sie können sich kostenlos anmelden.",
+  "IsLegalQ": "Ist Game X Arena legal?",
+  "IsLegalA": "Game X Arena ist legal, da die von uns durchgeführten Videospielwettbewerbe Geschicklichkeitsspiele sind.",
+  "IsSecureQ": "Ist Game X Arena sicher?",
+  "IsSecureA": "Game X Arena legt größten Wert darauf, dass Ihre sensiblen Informationen geschützt werden.Unsere Datenbanken und Server sind hochsicher mit robuster Verschlüsselung und wir speichern niemals Ihre Kreditkarteninformationen.Alle Kreditkartentransaktionen werden sicher über Paypal oder Skrill abgewickelt.",
+  "HowDoesWorkQ": "Wie funktioniert die Game X Arena?",
+  "HowDoesWorkA": "<p>Game X Arena ist eine unabhängige Turnier- und Spielorganisation für Gamer.</p><p>Um zu beginnen, müssen Sie sich anmelden. Nachdem Sie sich angemeldet haben, schauen Sie sich unsere OPEN MATCHES an. Auf dieser Seite können Sie einem vorhandenen offenen Spiel beitreten, ein eigenes Spiel erstellen oder den Hauptlobby-Chat verwenden, um ein Spiel mit einem anderen Mitglied der Community zu organisieren.</p><p>Oder besuchen Sie unsere Turnier-Seite. Auf dieser Seite können Sie an einem gesponserten Turnier teilnehmen. Der Preis der Turniere wird je nach Sponsoren von Game X Arena an den Gewinner vergeben</p><p>Sobald Sie eine Herausforderung angenommen oder an einem Turnier teilgenommen haben, wird das Startgeld vom Konto jedes Spielers abgehoben und der kombinierte Preispool wird auf unserem sicheren Treuhandkonto gehalten. Spieler können durch den Chat der Spielelobby oder durch private Nachrichten kommunizieren, wenn sie ihr Spiel aufstellen und sich auf das Spiel vorbereiten!</p><p>Nachdem Sie Ihr Spiel beendet haben, melden Sie und Ihre Gegner das Ergebnis des Spiels. Sobald die Punktzahl überprüft wurde, werden dem Gewinn automatisch die Gewinne gutgeschrieben.</p>",
+  "WhatVideoGamesQ": "Für welche Videospiele veranstaltet Game X Arena einen Wettbewerb?",
+  "WhatVideoGamesA": "Game X Arena unterstützt derzeit Fortnite, Madden, NBA 2K, FIFA, PUBG, MLB, Rocket League, NHL und Call of Duty (WW2, Black Ops 4).",
+  "TournamentsQ": "Game X Arena  Turniere",
+  "TournamentsA": "<p> Es gibt zwei Arten von Turnieren, an denen Sie auf der Turnierseite teilnehmen können.</p><ol><li>Turniere, die zu einer bestimmten Zeit beginnen.</li><li>Turniere, die beginnen, wenn die Kapazität gefüllt ist.</li></ol><p>Turniere variieren zwischen bezahlten Einträgen, kostenlos und gesponsert. Sie können ein Turnier verlassen, bevor es beginnt, und Ihr Geld wird sofort zurückerstattet (wenn es sich um einen bezahlten Beitrag handelt).</p><p>Sobald das Turnier beginnt, werden Sie benachrichtigt und die Klammer wird nach dem Zufallsprinzip generiert, während Ihr Spiel erstellt wird. Spiele haben normalerweise ein Zeitfenster von 24 Stunden,aber überprüfen Sie die Details für jedes Turnier, da das Fenster variieren kann.</p><p>Quick-Play-Turniere beginnen zu einer bestimmten Zeit und haben ein Zeitfenster von 1-2 Stunden.</p>",
+  "HowCanIJoinQ": "Wie kann ich an einem Turnier teilnehmen?",
+  "HowCanIJoinA": "Sie müssen zur Turnierseite gehen. Auf dieser Seite können Sie an einem Turnier teilnehmen.Vergessen Sie nicht die Lesebedingungen!",
+  "HowCanICreateQ": "Wie spiele ich ein Match?",
+  "HowCanICreateA": "<p>Die genauen Schritte variieren je nach Spiel, aber im Allgemeinen:</p><ol><li>Fügen Sie Ihren Gegner auf Xbox Live, PSN oder PC als Freund hinzu, indem Sie dessen Gamertag oder Benutzername verwenden.</li><li>Wechseln Sie in den Spielemodus, in dem Sie online einen Freund spielen können. Zum Beispiel den Online-Freundschaftsmodus in FIFA.</li><li>Senden Sie eine Spieleinladung an Ihren Gegner.</li><li>Überprüfen und bestätigen Sie die Übereinstimmungsregeln und -einstellungen.</li><li>Starten Sie das Spiel.</li></ol><p>Hinweis: Stellen Sie sicher, dass Sie Videos / Bilder / Screenshots des Endergebnisses des Spiels machen, wenn Sie sich über das Ergebnis des Spiels Streitigkeiten gibt ,um beweise zu haben.</p>",
+  "HowDoIPlayQ": "Wie kann ich ein Match erstellen?",
+  "HowDoIPlayA": "Um ein Match zu erstellen, klicken Sie auf die Seite „Match erstellen“ in Match.Dann müssen Sie die Spieleinstellungen wie Spiel, Plattform, Preis usw. festlegen.Nachdem Sie alle Einstellungen vorgenommen haben, wird Ihr Spiel von uns erstellt.",
+  "WhatHappensDisconnectQ": "Was passiert, wenn mein Gegner oder ich während eines Online-Spiels getrennt werde?",
+  "WhatHappensDisconnectA": "Jeder Spieler ist dafür verantwortlich, dass seine Verbindung für Online-Spiele geeignet ist. Wenn ein Spieler getrennt wird, empfehlen wir, dass er mit seinem Gegner kommuniziert, um herauszufinden, wie das Spiel beendet werden kann - d. H. Wenn die Verbindung zur Halbzeit unterbrochen wurde, sollte das Spiel nach einer Hälfte des neuen Spiels beendet werden.",
+  "WhatAreDisputesQ": "Wie würde ich das sehen,dass ich das Spiel gewonnen habe?",
+  "WhatAreDisputesA": "Nachdem Sie Ihr Spiel beendet haben, melden Sie und Ihre Gegner das Ergebnis des Spiels. Sobald die Punktzahl überprüft wurde, werden dem Gewinn automatisch in  die  Konto des Gewinners gutgeschrieben. Wir als Game X Arena-Team schlagen vor, ein Video oder Bilder / Screenshots des Ergebnisses oder des gesamten Spiels aufzunehmen.",
+  "HowMatchFeeWorksQ": "Wie funktionieren die Matchgebühren?",
+  "HowMatchFeeWorksA": "Game X Arena erhebt 10 % von dem Belohnung als Teilnahme gebühr. Bsp. Wenn die beiden beteiligten Parteien für Spiel 10 Euro eingesetzt haben die Belohnung wird 18 Euro sein.",
+  "MonthlyChargesQ": "Gibt es monatliche Gebühren für meine Kreditkarte?",
+  "MonthlyChargesA": "Für ein Konto bei Game X Arena fallen keine monatlichen Gebühren an.",
+  "HeadToHeadQ": "Für wie viel Geld kann ich spielen?",
+  "HeadToHeadA": "Wettkämpfe in der Game X Arena beträgt der Mindestherausforderungsbetrag 2,50 Euro. Der maximale Herausforderungsbetrag beträgt 500,00 Euro.",
+  "RatingSystemQ": "Was ist das  Game X Arena Raking System?",
+  "RatingSystemA": "Jeder Spieler verfügt  eine Raking, die angibt, wie gut ein Spieler in einem Spiel ist. Dies wird durch einen Algorithmus bestimmt, der Dinge wie die Anzahl der Gewinne und Verluste, die ein Spieler hat, und gegen wen er gespielt hat, berücksichtigt.Wenn Sie beispielsweise eine Raking von 60 haben und einen Spieler mit einer Bewertung von 80 besiegen, steigt Ihre Raking-Rate viel stärker an, als wenn Sie einen Spieler mit einer Bewertung von 50 besiegen.Bewertungen werden nur angezeigt, wenn ein Spieler 3 oder mehr Spiele mit einer Startgebühr von mindestens Euro 1,00 bestritten hat.",
+  "HowOldQ": "Wie alt muss ich sein, um an der Game X Arena teilnehmen zu können?",
+  "HowOldA": "Sie müssen mindestens 18 Jahre alt sein, um an dieser Website teilnehmen zu können.",
+  "MoreThanAccountQ": "Kann ich mehr als ein Konto haben?",
+  "MoreThanAccountA": "Nein. Sie dürfen nur unter einem Konto an der Game X Arena teilnehmen. Xbox Live Gamertag, Playstation Network Benutzername-Konto funktioniert nur mit einem Game X Arena-Konto.",
+  "SupportHeader": "Support",
+  "SupportText": "Haben Sie Fragen? Brauchen Sie Hilfe bei etwas auf der Website? Es ist wahrscheinlich, dass Ihre Frage auf unserer Seite mit häufig gestellten Fragen beantwortet wird.  Wenn Sie Ihre Antwort dort nicht finden, wenden Sie sich bitte an info@gamexarena.com. Wir werden umgehend Ihre Frage antworten.  ",
+  "UnderConstruction": "Unsere Seite befindet sich im Aufbau.",
+  "EnterEmailAddress": "Geben Sie Ihre E-Mail-Adresse ein, um Ihr Passwort zurückzusetzen.",
+  "PasswordResetted": "Ihr Passwort wurde zurückgesetzt.",
+  "HeaderNavigation": {
+    "AboutUs": "Über uns",
+    "Tournaments": "Turniere",
+    "Rules": "Regeln",
+    "Faq": "F.A.Q",
+    "Profile": "Profil",
+    "Matches": "Matches"
+  },
+  "FooterNavigation": {
+    "About": "ABOUT",
+    "Help": "HILFE",
+    "AboutUs": "Über Uns",
+    "Rules": "Regeln",
+    "Faq": "F.A.Q",
+    "PrivacyPolicy": "Datenschutz-Bestimmungen",
+    "Support": "Support",
+    "TermsOfUse": "Nutzungsbedingungen"
+  },
+  "Buttons": {
+    "SaveChanges": "Ânderung Speichern",
+    "ChangePassword": "Ândere das Passwort"
+  },
+  "ProfileNavigation": {
+    "GameSettings": "Spiel Einstellungen",
+    "TransactionHistory": "Transaktion Verlauf",
+    "GamerTags": "Spielername",
+    "ChangePassword": "Password Ândern",
+    "PersonalDetails": "Personal Details"
+  },
+  "MeNavigations": {
+    "AddMoney": "Geld hinzufügen",
+    "Withdraw": "Abheben",
+    "CreateChallenge": "HERAUSFORDERUNG STARTER",
+    "CreateMatch":"HERAUSFORDERUNG STARTER",
+    "MyProfile": "My Profile",
+    "MyGames": "My Games",
+    "Games": "Spiele",
+    "Rules": "REGELN",
+    "TransactionHistory": "VERLAUF DER TRANKSAKTİONEN",
+    "FAQ": "FAQ",
+    "AccountSettings": "KONTO EİNSTELLUNGEN",
+    "Logout": "ABMELDEN",
+    "EditProfile": "Profil bearbeiten"
+  },
+  "Tournaments": {
+    "Platform": "Plattform",
+    "Prize": "Belohnung",
+    "Date": "Datum",
+    "JoinButton": "JOIN TURNIER",
+    "CantJoin": "Sie können nur einem Turnier beitreten.",
+    "JoinerCount": "Anzahl der Teilnehmer",
+    "Info": "Info",
+    "Join": "Teilnehmen",
+    "title": "{0} Tournament",
+    "TournamentStart": "Das Turnier beginnt, erst wenn alle Spieler 5000 teilgenommen haben.",
+    "starting_date": "Tournaments starts {0}",
+    "Prizes": {
+      "title": "BELOHNUNG",
+      "prize": "| {n}st {prize} cash | {n}nd {prize} cash | {n}rd {prize} cash | {n}th {prize} cash"
+    },
+    "TournamentDetails": {
+      "title": "TOURNAMENT DETAILS",
+      "StartTime": "Start Zeit",
+      "Game": "Game",
+      "MatchLength": "Match Length",
+      "GameType": "Game Type"
+    },
+    "HowToPlay": {
+      "title": "HOW TO PLAY",
+      "fortnite": {
+        "list1": [
+          "Im Lobby von Fortnite Battle Royale stellt der erste Spieler(Gastgeber)  das Spielmodus in Duo ein.",
+          "Der Gastgeber addet sein Gegner auf die Epic Friends List und lädt ihre geger im Spiel ein.",
+          "Nachdem die eingeladene Spieler zum Spiel gekommen ist,startet die Heimspiler das Spiel ",
+          "Nach dem ersten Spiel wechseln die Spieler den Gastgeber und spielen noch einmal..",
+          "Der Spieler mit den insgesamt meisten Kills am Ende beider Spiele gewinnt."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "Im Pubg Hauptseite stellt der erste Spieler das Spiel Modus ins Duo-Modus  ein.",
+          "Der Gastgeber fügt den zweiten Spieler im seine Freunde Liste hinzu.",
+          "Nachdem der zweite Spieler zum Spiel kommt, startet der erste Spieler das Spiel.",
+          "Der Spieler mit den insgesamt meisten Kills am Ende beider Spiele gewinnt",
+          "Machen Sie ein Bild von Ihrem Ergebnis, wenn Sie sterben und Schicke es an deinen Gegner im Match-Chat. Dies ist eine Voraussetzung. Andernfalls gelten sie als verlierer."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Fügen Sie Ihren Gegner über das PSN als Freund im Playstation Network hinzu.",
+          "Im Fifa gehen Sie zu Online Tab und öffnen sie die Freundschaftsspiele Modus.",
+          "Beginnen Sie eine neue Saison oder öffnen Sie eine bestehende Saison mit Ihrem Gegner.",
+          "Überprüfen und bestätigen Sie die Spielregeln und Einstellungen ",
+          "Starten Sie das Spiel"
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Fügen Sie Ihren Gegner über das PSN als Freund im Playstation Network hinzu.",
+          "Wählen Sie den Multiplayer-Modus.",
+          "Wählen Sie Benutzerdefiniertes Spiel.",
+          "Drücke Dreieck, um deinen Gegner von deiner Freundesliste einzuladen.",
+          "Wählen Sie die Karte und die Einstellungen aus.",
+          "Starte das Spiel"
+        ]
+      }
+    },
+    "GameRules": {
+      "title": "SPIELREGELN",
+      "fortnite": {
+        "list1": [
+          "Sie und Ihr Gegner spielen im selben Spiel wie ein Duo-Team und kämpfen um die meisten Kills in 2 Spielen. Der Spieler mit den insgesamt meisten Kills am Ende beider Spiele gewinnt.",
+          "Alle Kills, die Sie während des Fallens erzielt haben, zählen zu Ihrem Endergebnis. Kills, die nach Ihrem Tod erzielt werden, zählen nicht für Ihre Endpunktzahl (z. B. durch Fallen oder durch jemanden, den Sie ausbluteten).",
+          "Verlängerung(Unentschieden): Wenn Sie und Ihr Gegner das Spiel mit der gleichen Anzahl an Kills beenden, spielen Sie das Spiel erneut, bis ein Spieler mehr Kills als der andere beendet.",
+          "Verzögerung (Lag)/ Einstellungen: Nach dem Einsteigen in den Bus werden irgendwelche Beschwerden über Verzögerung(Lag) oder Pre-Game-Einstellungen werden nicht in Betracht gezogen werden. Keine Ausnahmen.",
+          "Sie und Ihr Gegner können zusammenarbeiten, um Tötungen zu sichern.",
+          "Folgendes sind unerlaubt;",
+          "Zerbrechen oder absichtlich Schwächen von Strukturen(ihre Deckung usw.), die Ihr Gegner gebaut oder nicht gebaut hat, oder alle Dinge, die von Ihrem Gegner aktiv genutzt werden.",
+          "Verursachen dein Gegner Schüsse zu verpassen.",
+          "Strukturen Bauen  vor oder um deinen Gegner um ihre Bewegung absichtlich zu verhindern",
+          "Folgendes sind erlaubt;",
+          "Andere Gegner ziehen, indem Sie Ihren Teamkameraden (Gegner) mit Kanonen abfeuern.",
+          "Sich selbst in eine baukiste Einsperren und verstecken.",
+          "Dem Mitspieler (Gegner) folgen. ",
+          "Zerstören von Ihre eigene Strukturen und ihre Launch Pad(falls sie eins gebaut haben)",
+          "Wenn Sie das Spiel verlieren und das Gefühl haben, dass Ihr Gegner auf eine der oben genannten verbotenen Arten in Ihr Spiel eingegriffen hat, bestreiten Sie das Spiel bitte, indem Sie am Ende eine Siegpunktzahl einreichen. Nachdem Sie dies getan haben, erklären Sie bitte im Streit, was passiert ist, und legen Sie Video-Beweise dafür vor, dass dies innerhalb der im Streitfenster vorgesehenen Zeit geschieht.",
+          "Die oben aufgeführte Liste fasst nicht jede Regel um. Darüber hinaus behalten sich GameXArena-Manager das Recht vor, Regeln hinzuzufügen, Regeln zu ändern und zu interpretieren, um einen fairen und gerechten Kampf zu gewährleisten.",
+          "Wir müssen klare Beweise haben, um eine Verwerfung zu rechtfertigen.",
+          "Kill-Diebstahl: Kill-Diebstahl ist erlaubt.",
+          "Verbindungsprobleme: Wenn ein Spieler während des Aufwärmens vor dem Spiel die Verbindung trennt, muss das Spiel erneut abgespielt werden. Wenn Sie während des Spiels die Verbindung trennen, wird dies wie ein Tod behandelt. Ihre Punktzahl entspricht der Anzahl der Tötungen, die Sie bei der Verbindungsabbruch gehabt haben. Ihr Gegner kann weiter spielen, auch wenn Sie sich vom Spiel getrennt haben."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "Sie und Ihr Gegner spielen im selben Spiel wie ein Duo-Team und kämpfen um die meisten Kills in 2 Spielen. Der Spieler mit den insgesamt meisten Kills am Ende beider Spiele gewinnt.",
+          "Beweisen: Da Sie die Kills Ihres Gegners nicht auf der Anzeigetafel sehen können, müssen Sie für jedes Spiel einen Kills beweisen. Zumindest müssen Sie sich ein Bild von Ihren Kills machen, wenn Sie sterben. Sie müssen dieses Bild mit Ihrem Gegner teilen, indem Sie einen Link im Match-Chat posten. (Es kann auf Gyazo, Imgur usw. gehostet werden.)",
+          "Alle Kills, die Sie während des Fallens erzielt haben, zählen zu Ihrem Endergebnis. Kills, die nach Ihrem Tod erzielt werden, zählen nicht für Ihre Endpunktzahl (z. B. durch Fallen oder durch jemanden, den Sie ausbluteten).",
+          "Wenn Sie und Ihr Gegner das Spiel mit der gleichen Anzahl an Kills beenden, spielen Sie das Spiel erneut, bis ein Spieler mehr Kills als der andere beendet.",
+          "Replays: Sie müssen mit aktivierten Replays spielen. Im Falle einer Auseinandersetzung müssen Sie eine Wiedergabe oder ein Video Ihrer gesamten Wiedergabe einreichen. Wenn Sie dies nicht tun können, werden Sie Ihren Streit verlieren.",
+          "Host: Sofern nicht anders vereinbart von den Spielern beteiligt ist, wird handsoff die Host dieses Spiels sein.",
+          "Störungen und Behinderungen: Sie und Ihr Gegner im Spiel können zusammenarbeiten, um Kills zu sichern. Sie können Ihren Gegner jedoch nicht aktiv im Verlauf des Spiels behindern. Dazu gehört, dass ein Team getötet wird und Ihr Gegner absichtlich daran gehindert wird, sich zu bewegen, ihn mit Granaten zu schlagen usw.",
+          "In Bezug auf Fahrzeuge: Sie können in das Fahrzeug Ihres Gegners springen, aber wenn Ihr Gegner von einer Klippe oder in etwas abfährt, das Sie umbringt, wird dies nicht als Störung betrachtet. Dein Gegner wird das Spiel dafür nicht verlieren.",
+          "Der Nachweis eines Verstoßes führt zur Beendung und Verlieren dieses Spiels.",
+          "Wir müssen klare Beweise haben, um eine Verwerfung zu rechtfertigen.",
+          "Kill-Diebstahl: Kill-Diebstahl ist erlaubt.",
+          "Verbindungsprobleme: Wenn ein Spieler während des Aufwärmens vor dem Spiel die Verbindung trennt, muss das Spiel erneut abgespielt werden. Wenn Sie während des Spiels die Verbindung trennen, wird dies wie ein Tod behandelt. Ihre Punktzahl entspricht der Anzahl der Tötungen, die Sie bei der Verbindungsabbruch gehabt haben. Ihr Gegner kann weiter spielen, auch wenn Sie sich vom Spiel getrennt haben."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Nach eine Spielminute von Eine Minute vergangen ist, darf man sich nicht mehr über die Spieleinstellungen oder Latenz /Lag beschweren. Die Beschwerden werden nicht mehr berücksichtigt.",
+          "Unterbrechungen: Im Falle einer Unterbrechung müssen Sie und Ihr Gegner die verbleibende Zeit des Spiels spielen .Das Ergebnis unverändert bleibt wie in dem unterbrochenen Spiel, die Restspiel fängt mit dem Ergebnis vom unterbrochenen Speil an. Wenn die Unterbrechung in der 30. Minute auftrat, sollte das neue Spiel bis zur 60. Minute gespielt werden. Es wird dringend empfohlen, im Streitfall Video von allen Spielen aufzunehmen. ",
+          "Wenn Sie das Spiel nicht innerhalb von 15 Minuten nach der Unterbrechung  fortsetzen können, kann Game X Arena das Spiel mit dem Ermessensspielraum entscheiden. Wenn Sie ein verlierende Partei sind und Ihre Verbindung unterbrochen ist, sind Sie besiegt. Wenn Sie die gewinnende Partei sind, wird das Spiel möglicherweise abgesagt oder Sie können je nach Umständen besiegt werden. Die unterlegene Seite versucht  sich mit dem Spiel zu verbinden ist ein Kriterium. Wenn Sie verlierende Parteien sind und nicht versucht haben in 15 Minuten erneut zu spielen, verlieren Sie das Spiel.",
+          "Nur Online-Squads: Spiele dürfen nur mit Online-Squads gespielt werden. Wenn versucht wird, benutzerdefinierte Squads oder bearbeitete Spieler zu verwenden, verlieren Sie automatisch das Spiel und erhalten einen Verlust.",
+          "Keine benutzerdefinierten Formationen: Benutzerdefinierte Formationen dürfen nicht verwendet werden, es sei denn, die beteiligten Spieler vereinbaren dies. Im Falle einer Auseinandersetzung MÜSSEN Sie VIDEO HABEN, um darauf Rücksicht zu nehmen, und die Entscheidung liegt im Ermessen von Game X Arena.",
+          "Unentschieden: Wenn das Spiel unentschieden beendet, müssen die Spieler ein zweites Spiel spielen. Wenn im zweiten Spiel kein Tor erzielt wird, müssen sich die Spieler sich einigen, ob Sie die Elfmeter zu Schießen oder das Spiel erneut zu spielen oder das Spiel abzubrechen. ",
+          "Legacy Defending: Legacy Defending darf in diesem Match nicht verwendet werden. Wenn es nicht erlabt ist.Im Falle einer Auseinandersetzung MÜSSEN Sie VIDEO HABEN, um darauf Rücksicht zu nehmen, und die Entscheidung liegt im Ermessen von  der Game X Arena."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Spieleinstellungen: Sofern nicht anders angegeben, müssen die folgenden Einstellungen auf Folgendes festgelegt werden:",
+          "Sie und Ihr Gegner nehmen an einem öffentlichen Spiel teil und spielen in demselben Team. Wer das Spiel mit mehr Kills beendet, als der andere Spieler gewinnt.",
+          "Beweis: Sie benötigen einen Screenshot des After Action Report, der das Endergebnis zeigt, wobei beide Spieler tot sind. Aber ein Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen. Proof: Sie benötigen einen Screenshot des After Action Report, der den Endstand mit beiden Spielern zeigt. Aber ein Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "Alle Kills, die Sie während des Fallens erzielt haben, zählen zu Ihrem Endergebnis. Kills, die nach Ihrem Tod erzielt werden, zählen nicht für Ihre Endpunktzahl (z. B. durch Fallen oder durch jemanden, den Sie ausbluteten).",
+          "Wenn Sie und Ihr Gegner das Spiel mit der gleichen Anzahl an Kills beenden, spielen Sie das Spiel erneut, bis ein Spieler mehr Kills als der andere beendet.",
+          "Verzögerung (Lag)/ Einstellungen: Nach dem Einsteigen in den Bus werden irgendwelche Beschwerden über Verzögerung(Lag) oder Pre-Game-Einstellungen werden nicht in Betracht gezogen werden. Keine Ausnahmen.",
+          "Verbindungsprobleme: Wenn ein Spieler während des Aufwärmens vor dem Spiel die Verbindung trennt, muss das Spiel erneut abgespielt werden. Wenn Sie während des Spiels die Verbindung trennen, wird dies wie ein Tod behandelt. Ihre Punktzahl entspricht der Anzahl der Tötungen, die Sie bei der Verbindungsabbruch gehabt haben. Ihr Gegner kann weiter spielen, auch wenn Sie sich vom Spiel getrennt haben.",
+          "Friendly Fire: Friendly Fire ist nicht erlaubt. Sie und Ihr Gegner im Spiel können zusammenarbeiten, um Kills zu sichern. Sie können Ihren Gegner jedoch nicht aktiv im Verlauf des Spiels behindern. Dazu gehört, dass ein Team getötet wird und Ihr Gegner absichtlich daran gehindert wird, sich zu bewegen, ihn mit Granaten zu schlagen usw.",
+          "Wir müssen klare Beweise haben, um eine Verwerfung zu rechtfertigen.",
+          "Kill-Diebstahl: Kill-Diebstahl ist erlaubt."
+        ]
+      }
+    },
+    "GamexarenaRules": {
+      "title": "GAME X ARENA REGELN",
+      "fortnite": {
+        "list1": [
+          "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+          "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen hat, gilt als Verlierer des Spiels.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+          "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "Epic Games Usernames: Dieses Spiel ist nur gültig, wenn es zwischen den oben genannten Epic Games Usernamen gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel zu spielen und zu verlieren, wird Ihre Streitigkeit nicht berücksichtigt.",
+          "Wenn ein Spielerergebnis gemeldet wird, hat der andere Spieler 30 Minuten Zeit, um das Ergebnis zu bestätigen oder das Ergebnis wiedersprächen, andernfalls wird das Ergebnis automatisch bestätigt.",
+          "Wenn die Anzahl der Teilnehmer an einem Turnier weniger als 5000 ist, wird der Preis auf 1/10 reduziert und der verbleibende Preis beim nächsten Turnier vergeben.",
+          "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen.",
+          "1. Falsche Ergebnisbenachrichtigung = 5 Euro",
+          "2. Falsche Ergebnisbenachrichtigung = 25 Euro",
+          "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos.",
+          "Bei allen Spielen, für die mehr als ein Spiel erforderlich sind, muss das nächste Spiel maximal in  15 Minuten nach Ende des vorherigen Spiels spielbereit sein. Andernfalls ist dies ein Grund für die Disqualifikation."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+          "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen t hat, gilt als Verlierer des Spiels.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X das Spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+          "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "Epic Games Usernames/XboxGamertags : Dieses Spiel ist nur gültig, wenn es zwischen den oben genannten Epic Games Usernamen/XboxGamertags gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel zu spielen und zu verlieren, wird Ihre Streitigkeit nicht berücksichtigt.",
+          "Wenn ein Spielerergebnis gemeldet wird, hat der andere Spieler 30 Minuten Zeit, um das Ergebnis zu bestätigen oder das Ergebnis wiedersprächen, andernfalls wird das Ergebnis automatisch bestätigt.",
+          "Wenn die Anzahl der Teilnehmer an einem Turnier weniger als 5000 ist, wird der Preis auf 1/10 reduziert und der verbleibende Preis beim nächsten Turnier vergeben.",
+          "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen.",
+          "1. Falsche Ergebnisbenachrichtigung =  5 Euro/TL",
+          "2. Falsche Ergebnisbenachrichtigung = 25 Euro/TL",
+          "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos.",
+          "Bei allen Spielen, für die mehr als ein Spiel erforderlich sind, muss das nächste Spiel maximal in  15 Minuten nach Ende des vorherigen Spiels spielbereit sein. Andernfalls ist dies ein Grund für die Disqualifikation."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+          "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen t hat, gilt als Verlierer des Spiels.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X das Spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+          "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "PSN-Benutzername/ Xbox Gamertags : Das Spiel ist nur gültig, wenn es zwischen den oben aufgeführten PSN-Namen/ Xbox Gamertags  gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel mit einem anderen Benutzernamen und einem anderen Objekt nach dem Spiel zu spielen, wird Ihr Einspruch nicht berücksichtigt.",
+          "Automatische Bestätigung des Ergebnisses nach 30 Minuten: Sobald ein Punktestand gemeldet wurde, hat der andere Spieler 30 Minuten Zeit, um zu bestätigen oder zu zählen, bevor der erste gemeldete Punktestand automatisch bestätigt wird.",
+          "Wenn die Anzahl der Teilnehmer an einem Turnier weniger als 5000 ist, wird der Preis auf 1/10 reduziert und der verbleibende Preis beim nächsten Turnier vergeben.",
+          "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen.",
+          "1. Falsche Ergebnisbenachrichtigung = $ 5 ",
+          "2. Falsche Ergebnisbenachrichtigung = 25 $",
+          "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos.",
+          "Ein Spiel, das mehrere Spiele erfordert, muss innerhalb von 15 Minuten nach dem letzten Spiel starten. Andernfalls verfällt der Betrag."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+          "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen t hat, gilt als Verlierer des Spiels.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X das Spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+          "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "PSN-Benutzername/ Xbox Gamertags : Das Spiel ist nur gültig, wenn es zwischen den oben aufgeführten PSN-Namen/ Xbox Gamertags  gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel mit einem anderen Benutzernamen und einem anderen Objekt nach dem Spiel zu spielen, wird Ihr Einspruch nicht berücksichtigt.",
+          "Automatische Bestätigung des Ergebnisses nach 30 Minuten: Sobald ein Punktestand gemeldet wurde, hat der andere Spieler 30 Minuten Zeit, um zu bestätigen oder zu zählen, bevor der erste gemeldete Punktestand automatisch bestätigt wird.",
+          "Wenn die Anzahl der Teilnehmer an einem Turnier weniger als 5000 ist, wird der Preis auf 1/10 reduziert und der verbleibende Preis beim nächsten Turnier vergeben.",
+          "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen.",
+          "1. Falsche Ergebnisbenachrichtigung = 5 Euro ",
+          "2. Falsche Ergebnisbenachrichtigung = 25 Euro",
+          "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos.",
+          "Ein Spiel, das mehrere Spiele erfordert, muss innerhalb von 15 Minuten nach dem letzten Spiel starten. Andernfalls verfällt der Betrag."
+        ]
+      }
+    }
+  },
+  "Rules": {
+    "title": "Game X Arena Regeln",
+    "paragraphs1": [
+      "Jeder Spieler muss ein PAYPAL- oder SKRILL-Konto eröffnen, um bezahlt zu werden.",
+      "Das Konto, für das das Preisgeld gutgeschrieben werden soll, muss auf den Namen des Spielers sein.",
+      "Turniergewinner müssen, nachdem sie ihr Geld erhalten haben, ihr Foto über Instagram mit uns teilen. ",
+      "Die Turniere werden von Game X Arena organisiert. Die Spieler müssen den Social Media Konten von Game X Arena folgen, um das Game X Arena System zu unterstützen. Game X Arena erhebt keine Eintrittsgebühren für gesponserte Turniere. Instagram Konten für www.gamexarena.com sind @gamexarena und @ gamexarena.eng",
+      "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+      "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+      "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen hat, gilt als Verlierer des Spiels.",
+      "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+      "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+      "Xbox Gamertags/Epic Gamernames/PSN name /Stream Name: Dieses Spiel ist nur gültig, wenn es zwischen den oben genannten Xbox Gamertags/Epic Gamernames/PSN name /Stream Name gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel zu spielen und zu verlieren, wird Ihre Streitigkeit nicht berücksichtigt.",
+      "Wenn ein Spielerergebnis gemeldet wird, hat der andere Spieler 30 Minuten Zeit, um das Ergebnis zu bestätigen oder das Ergebnis wiedersprächen, andernfalls wird das Ergebnis automatisch bestätigt.",
+      "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen."
+    ],
+    "list1": [
+      "1. Falsche Ergebnisbenachrichtigung = 5 Euro",
+      "2. Falsche Ergebnisbenachrichtigung = 25 Euro",
+      "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos."
+    ],
+    "paragraphs2": [
+      "Bei allen Spielen, für die mehr als ein Spiel erforderlich sind, muss das nächste Spiel maximal in  15 Minuten nach Ende des vorherigen Spiels spielbereit sein. Andernfalls ist dies ein Grund für die Disqualifikation."
+    ]
+  },
+  "Cancel": "Stornieren",
+  "Match": {
+    "NowPlaying": "Läuft gerade",
+    "EntryFee": "Eintrittspreis",
+    "GamerTag": "Spieler-Tag hinzufügen",
+    "YouMayCancel": "Sie können Ihr offenes Spiel jederzeit abbrechen.",
+    "Cancel": "Spiel abbrechen",
+    "Prize": "Prize",
+    "MatchDetails": "Spieldetails",
+    "YourMatch": "Deine Spiele",
+    "OpenMatches": "Spiele öffnen",
+    "OpenMatch": "Offenes Spiel",
+    "Join": "Beitreten",
+    "SubmitScore": "Spielstand Eingeben",
+    "Acceptance": "Warten Auf die Zusage.",
+    "gameRules": {
+      "title": "Spielregeln",
+      "fortnite": {
+        "list1": [
+          "Im Lobby von Fortnite Battle Royale stellt der erste Spieler(Gastgeber)  das Spielmodus in Duo ein.",
+          "Der Gastgeber addet sein Gegner auf die Epic Friends List und lädt ihre geger im Spiel ein.",
+          "Nachdem die eingeladene Spieler zum Spiel gekommen ist,startet die Heimspiler das Spiel ",
+          "Nach dem ersten Spiel wechseln die Spieler den Gastgeber und spielen noch einmal.",
+          "Der Spieler mit den insgesamt meisten Kills am Ende beider Spiele gewinnt.",
+          "Game X Areana`s Spiel Regeln Für Fortnite",
+          "Sie und Ihr Gegner spielen im selben Spiel wie ein Duo-Team und kämpfen um die meisten Kills in 2 Spielen. Der Spieler mit den insgesamt meisten Kills am Ende beider Spiele gewinnt.",
+          "Alle Kills, die Sie während des Fallens erzielt haben, zählen zu Ihrem Endergebnis. Kills, die nach Ihrem Tod erzielt werden, zählen nicht für Ihre Endpunktzahl (z. B. durch Fallen oder durch jemanden, den Sie ausbluteten).",
+          "Verlängerung(Unentschieden): Wenn Sie und Ihr Gegner das Spiel mit der gleichen Anzahl an Kills beenden, spielen Sie das Spiel erneut, bis ein Spieler mehr Kills als der andere beendet.",
+          "Verzögerung (Lag)/ Einstellungen: Nach dem Einsteigen in den Bus werden irgendwelche Beschwerden über Verzögerung(Lag) oder Pre-Game-Einstellungen werden nicht in Betracht gezogen werden. Keine Ausnahmen.",
+          "Sie und Ihr Gegner können zusammenarbeiten, um Tötungen zu sichern.",
+          "Folgendes sind unerlaubt;",
+          "Zerbrechen oder absichtlich Schwächen von Strukturen(ihre Deckung usw.), die Ihr Gegner gebaut oder nicht gebaut hat, oder alle Dinge, die von Ihrem Gegner aktiv genutzt werden.",
+          "Verursachen dein Gegner Schüsse zu verpassen.",
+          "Strukturen Bauen  vor oder um deinen Gegner um ihre Bewegung absichtlich zu verhindern",
+          "Folgendes sind erlaubt;",
+          "Andere Gegner ziehen, indem Sie Ihren Teamkameraden (Gegner) mit Kanonen abfeuern.",
+          "Sich selbst in eine baukiste Einsperren und verstecken.",
+          "Dem Mitspieler (Gegner) folgen. ",
+          "Zerstören von Ihre eigene Strukturen und ihre Launch Pad(falls sie eins gebaut haben)",
+          "Wenn Sie das Spiel verlieren und das Gefühl haben, dass Ihr Gegner auf eine der oben genannten verbotenen Arten in Ihr Spiel eingegriffen hat, bestreiten Sie das Spiel bitte, indem Sie am Ende eine Siegpunktzahl einreichen. Nachdem Sie dies getan haben, erklären Sie bitte im Streit, was passiert ist, und legen Sie Video-Beweise dafür vor, dass dies innerhalb der im Streitfenster vorgesehenen Zeit geschieht.",
+          "Die oben aufgeführte Liste fasst nicht jede Regel um. Darüber hinaus behalten sich GameXArena-Manager das Recht vor, Regeln hinzuzufügen, Regeln zu ändern und zu interpretieren, um einen fairen und gerechten Kampf zu gewährleisten.",
+          "Wir müssen klare Beweise haben, um eine Verwerfung zu rechtfertigen.",
+          "Kill-Diebstahl: Kill-Diebstahl ist erlaubt.",
+          "Verbindungsprobleme: Wenn ein Spieler während des Aufwärmens vor dem Spiel die Verbindung trennt, muss das Spiel erneut abgespielt werden. Wenn Sie während des Spiels die Verbindung trennen, wird dies wie ein Tod behandelt. Ihre Punktzahl entspricht der Anzahl der Tötungen, die Sie bei der Verbindungsabbruch gehabt haben. Ihr Gegner kann weiter spielen, auch wenn Sie sich vom Spiel getrennt haben.",
+          "<br>",
+          "<br>",
+          "Game X Arena Regeln",
+          "<hr>",
+          "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+          "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen hat, gilt als Verlierer des Spiels.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+          "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "Epic Games Usernames: Dieses Spiel ist nur gültig, wenn es zwischen den oben genannten Epic Games Usernamen gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel zu spielen und zu verlieren, wird Ihre Streitigkeit nicht berücksichtigt.",
+          "Wenn ein Spielerergebnis gemeldet wird, hat der andere Spieler 30 Minuten Zeit, um das Ergebnis zu bestätigen oder das Ergebnis wiedersprächen, andernfalls wird das Ergebnis automatisch bestätigt.",
+          "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen.",
+          "1. Falsche Ergebnisbenachrichtigung = 5 Euro",
+          "2. Falsche Ergebnisbenachrichtigung = 25 Euro",
+          "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos.",
+          "Bei allen Spielen, für die mehr als ein Spiel erforderlich sind, muss das nächste Spiel maximal in  15 Minuten nach Ende des vorherigen Spiels spielbereit sein. Andernfalls ist dies ein Grund für die Disqualifikation."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "Im Pubg Hauptseite stellt der erste Spieler das Spiel Modus ins Duo-Modus ein.",
+          "Der Gastgeber fügt den zweiten Spieler im seine Freunde Liste hinzu.",
+          "Nachdem der zweite Spieler zum Spiel kommt, startet der erste Spieler das Spiel.",
+          "Der Spieler mit den insgesamt meisten Kills am Ende beider Spiele gewinnt",
+          "Machen Sie ein Bild von Ihrem Ergebnis, wenn Sie sterben und Schicke es an deinen Gegner im Match-Chat. Dies ist eine Voraussetzung. Andernfalls gelten sie als verlierer.",
+          "Game X Areana`s Spielregeln Für Fortnite",
+          "Sie und Ihr Gegner spielen im selben Spiel wie ein Duo-Team und kämpfen um die meisten Kills in 2 Spielen. Der Spieler mit den insgesamt meisten Kills am Ende beider Spiele gewinnt.",
+          "Beweisen: Da Sie die Kills Ihres Gegners nicht auf der Anzeigetafel sehen können, müssen Sie für jedes Spiel einen Kills beweisen. Zumindest müssen Sie sich ein Bild von Ihren Kills machen, wenn Sie sterben. Sie müssen dieses Bild mit Ihrem Gegner teilen, indem Sie einen Link im Match-Chat posten. (Es kann auf Gyazo, Imgur usw. gehostet werden.)",
+          "Alle Kills, die Sie während des Fallens erzielt haben, zählen zu Ihrem Endergebnis. Kills, die nach Ihrem Tod erzielt werden, zählen nicht für Ihre Endpunktzahl (z. B. durch Fallen oder durch jemanden, den Sie ausbluteten).",
+          "Wenn Sie und Ihr Gegner das Spiel mit der gleichen Anzahl an Kills beenden, spielen Sie das Spiel erneut, bis ein Spieler mehr Kills als der andere beendet.",
+          "Replays: Sie müssen mit aktivierten Replays spielen. Im Falle einer Auseinandersetzung müssen Sie eine Wiedergabe oder ein Video Ihrer gesamten Wiedergabe einreichen. Wenn Sie dies nicht tun können, werden Sie Ihren Streit verlieren.",
+          "Host: Sofern nicht anders vereinbart von den Spielern beteiligt ist, wird handsoff die Host dieses Spiels sein.",
+          "Störungen und Behinderungen: Sie und Ihr Gegner im Spiel können zusammenarbeiten, um Kills zu sichern. Sie können Ihren Gegner jedoch nicht aktiv im Verlauf des Spiels behindern. Dazu gehört, dass ein Team getötet wird und Ihr Gegner absichtlich daran gehindert wird, sich zu bewegen, ihn mit Granaten zu schlagen usw.",
+          "In Bezug auf Fahrzeuge: Sie können in das Fahrzeug Ihres Gegners springen, aber wenn Ihr Gegner von einer Klippe oder in etwas abfährt, das Sie umbringt, wird dies nicht als Störung betrachtet. Dein Gegner wird das Spiel dafür nicht verlieren.",
+          "Der Nachweis eines Verstoßes führt zur Beendung und Verlieren dieses Spiels.",
+          "Wir müssen klare Beweise haben, um eine Verwerfung zu rechtfertigen.",
+          "Kill-Diebstahl: Kill-Diebstahl ist erlaubt.",
+          "Verbindungsprobleme: Wenn ein Spieler während des Aufwärmens vor dem Spiel die Verbindung trennt, muss das Spiel erneut abgespielt werden. Wenn Sie während des Spiels die Verbindung trennen, wird dies wie ein Tod behandelt. Ihre Punktzahl entspricht der Anzahl der Tötungen, die Sie bei der Verbindungsabbruch gehabt haben. Ihr Gegner kann weiter spielen, auch wenn Sie sich vom Spiel getrennt haben.",
+          "<br>",
+          "<br>",
+          "Game X Arena Regeln",
+          "<hr>",
+          "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+          "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen hat, gilt als Verlierer des Spiels.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+          "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "Epic Games Usernames: Dieses Spiel ist nur gültig, wenn es zwischen den oben genannten Epic Games Usernamen gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel zu spielen und zu verlieren, wird Ihre Streitigkeit nicht berücksichtigt.",
+          "Wenn ein Spielerergebnis gemeldet wird, hat der andere Spieler 30 Minuten Zeit, um das Ergebnis zu bestätigen oder das Ergebnis wiedersprächen, andernfalls wird das Ergebnis automatisch bestätigt.",
+          "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen.",
+          "1. Falsche Ergebnisbenachrichtigung = 5 Euro",
+          "2. Falsche Ergebnisbenachrichtigung = 25 Euro",
+          "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos.",
+          "Bei allen Spielen, für die mehr als ein Spiel erforderlich sind, muss das nächste Spiel maximal in  15 Minuten nach Ende des vorherigen Spiels spielbereit sein. Andernfalls ist dies ein Grund für die Disqualifikation."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Fügen Sie Ihren Gegner über das PSN als Freund im Playstation Network hinzu.",
+          "Im Fifa gehen Sie zu Online Tab und öffnen sie die Freundschaftsspiele Modus.",
+          "Beginnen Sie eine neue Saison oder öffnen Sie eine bestehende Saison mit Ihrem Gegner.",
+          "Überprüfen und bestätigen Sie die Spielregeln und Einstellungen ",
+          "Starten Sie das Spiel",
+          "Game X Areana`s Spielregeln Für FIFA 19",
+          "Nach eine Spielminute von Eine Minute vergangen ist, darf man sich nicht mehr über die Spieleinstellungen oder Latenz /Lag beschweren. Die Beschwerden werden nicht mehr berücksichtigt.",
+          "Unterbrechungen: Im Falle einer Unterbrechung müssen Sie und Ihr Gegner die verbleibende Zeit des Spiels spielen .Das Ergebnis unverändert bleibt wie in dem unterbrochenen Spiel, die Restspiel fängt mit dem Ergebnis vom unterbrochenen Speil an. Wenn die Unterbrechung in der 30. Minute auftrat, sollte das neue Spiel bis zur 60. Minute gespielt werden. Es wird dringend empfohlen, im Streitfall Video von allen Spielen aufzunehmen.",
+          "Wenn Sie das Spiel nicht innerhalb von 15 Minuten nach der Unterbrechung  fortsetzen können, kann Game X Arena das Spiel mit dem Ermessensspielraum entscheiden. Wenn Sie ein verlierende Partei sind und Ihre Verbindung unterbrochen ist, sind Sie besiegt. Wenn Sie die gewinnende Partei sind, wird das Spiel möglicherweise abgesagt oder Sie können je nach Umständen besiegt werden. Die unterlegene Seite versucht  sich mit dem Spiel zu verbinden ist ein Kriterium. Wenn Sie verlierende Parteien sind und nicht versucht haben in 15 Minuten erneut zu spielen, verlieren Sie das Spiel.",
+          "Nur Online-Squads: Spiele dürfen nur mit Online-Squads gespielt werden. Wenn versucht wird, benutzerdefinierte Squads oder bearbeitete Spieler zu verwenden, verlieren Sie automatisch das Spiel und erhalten einen Verlust.",
+          "Keine benutzerdefinierten Formationen: Benutzerdefinierte Formationen dürfen nicht verwendet werden, es sei denn, die beteiligten Spieler vereinbaren dies. Im Falle einer Auseinandersetzung MÜSSEN Sie VIDEO HABEN, um darauf Rücksicht zu nehmen, und die Entscheidung liegt im Ermessen von Game X Arena.",
+          "Unentschieden: Wenn das Spiel unentschieden beendet, müssen die Spieler ein zweites Spiel spielen. Wenn im zweiten Spiel kein Tor erzielt wird, müssen sich die Spieler sich einigen, ob Sie die Elfmeter zu Schießen oder das Spiel erneut zu spielen oder das Spiel abzubrechen.",
+          "Legacy Defending: Legacy Defending darf in diesem Match nicht verwendet werden. Wenn es nicht erlabt ist.Im Falle einer Auseinandersetzung MÜSSEN Sie VIDEO HABEN, um darauf Rücksicht zu nehmen, und die Entscheidung liegt im Ermessen von  der Game X Arena.",
+          "<br>",
+          "<br>",
+          "Game X Arena Regeln",
+          "<hr>",
+          "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+          "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen hat, gilt als Verlierer des Spiels.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+          "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "Epic Games Usernames: Dieses Spiel ist nur gültig, wenn es zwischen den oben genannten Epic Games Usernamen gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel zu spielen und zu verlieren, wird Ihre Streitigkeit nicht berücksichtigt.",
+          "Wenn ein Spielerergebnis gemeldet wird, hat der andere Spieler 30 Minuten Zeit, um das Ergebnis zu bestätigen oder das Ergebnis wiedersprächen, andernfalls wird das Ergebnis automatisch bestätigt.",
+          "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen.",
+          "1. Falsche Ergebnisbenachrichtigung = 5 Euro",
+          "2. Falsche Ergebnisbenachrichtigung = 25 Euro",
+          "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos.",
+          "Bei allen Spielen, für die mehr als ein Spiel erforderlich sind, muss das nächste Spiel maximal in  15 Minuten nach Ende des vorherigen Spiels spielbereit sein. Andernfalls ist dies ein Grund für die Disqualifikation."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Fügen Sie Ihren Gegner über das PSN als Freund im Playstation Network hinzu.",
+          "Wählen Sie den Multiplayer-Modus.",
+          "Wählen Sie Benutzerdefiniertes Spiel.",
+          "Drücke Dreieck, um deinen Gegner von deiner Freundesliste einzuladen.",
+          "Wählen Sie die Karte und die Einstellungen aus.",
+          "Starte das Spiel",
+          "Game X Areana`s Spielregeln Für COD 1V1 BLACKOUT",
+          "Spieleinstellungen: Sofern nicht anders angegeben, müssen die folgenden Einstellungen auf Folgendes festgelegt werden:",
+          "Sie und Ihr Gegner nehmen an einem öffentlichen Spiel teil und spielen in demselben Team. Wer das Spiel mit mehr Kills beendet, als der andere Spieler gewinnt.",
+          "Beweis: Sie benötigen einen Screenshot des 'After Action Report', der das Endergebnis zeigt, wobei beide Spieler tot sind. Aber ein Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen. Proof: Sie benötigen einen Screenshot des 'After Action Report', der den Endstand mit beiden Spielern zeigt. Aber ein Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "Alle Kills, die Sie während des Fallens erzielt haben, zählen zu Ihrem Endergebnis. Kills, die nach Ihrem Tod erzielt werden, zählen nicht für Ihre Endpunktzahl (z. B. durch Fallen oder durch jemanden, den Sie ausbluteten).",
+          "Wenn Sie und Ihr Gegner das Spiel mit der gleichen Anzahl an Kills beenden, spielen Sie das Spiel erneut, bis ein Spieler mehr Kills als der andere beendet.",
+          "Verzögerung (Lag)/ Einstellungen: Nach dem Einsteigen in den Bus werden irgendwelche Beschwerden über Verzögerung(Lag) oder Pre-Game-Einstellungen werden nicht in Betracht gezogen werden. Keine Ausnahmen.",
+          "Verbindungsprobleme: Wenn ein Spieler während des Aufwärmens vor dem Spiel die Verbindung trennt, muss das Spiel erneut abgespielt werden. Wenn Sie während des Spiels die Verbindung trennen, wird dies wie ein Tod behandelt. Ihre Punktzahl entspricht der Anzahl der Tötungen, die Sie bei der Verbindungsabbruch gehabt haben. Ihr Gegner kann weiter spielen, auch wenn Sie sich vom Spiel getrennt haben.",
+          "Friendly Fire: Friendly Fire ist nicht erlaubt. Sie und Ihr Gegner im Spiel können zusammenarbeiten, um Kills zu sichern. Sie können Ihren Gegner jedoch nicht aktiv im Verlauf des Spiels behindern. Dazu gehört, dass ein Team getötet wird und Ihr Gegner absichtlich daran gehindert wird, sich zu bewegen, ihn mit Granaten zu schlagen usw.",
+          "Wir müssen klare Beweise haben, um eine Verwerfung zu rechtfertigen.",
+          "Kill-Diebstahl: Kill-Diebstahl ist erlaubt.",
+          "<br>",
+          "<br>",
+          "Game X Arena Regeln",
+          "<hr>",
+          "Wenn Sie auf Ihrer Konsole eine Einladung erhalten, die nicht mit den Regeln auf dieser Seite übereinstimmt, spielen Sie das Spiel NICHT. Wenn Sie das Spiel spielen, verlieren und einen Streit einreichen, werden Game X Arena-Admins Ihren Streit nicht genehmigen. Game X Arena ist eine Organisation, die auf Fairness und Fairplay basiert. Bevor Entscheidungen getroffen werden, werden Entscheidungen definitiv objektiv überprüft und veröffentlicht, da wir sie für fair halten.",
+          "Wir empfehlen Ihnen sehr, dass Sie alle Ergebnisse des Spiels, Verbindungsabbrüche, Ereignisse, die gegen die Regeln  verstoßen usw. aufzuzeichnen.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel verliert oder das Spiel unentschieden ist und wenn der andere Spieler die beweise hat(Video Aufnahme), dann kann der andere Spieler das Spiel sofort verlassen, der Spieler, der die Regel verstoßen hat, gilt als Verlierer des Spiels.",
+          "Wenn ein Spieler gegen eine Regel verstößt, während er das Spiel gewinnt und wenn der andere Spieler die beweise hat(Video Aufnahme), dann musst der andere Spieler das Spiel sofort verlassen, Von dem Spieler, der die Regel verstoßen hat, wird 2 X spielgebühr genommen und der andere Spieler bekommt sein Eintrittsbetrag zurück.",
+          "Beweis: Video-Beweis ist der beste Beweis, den Sie uns vorlegen können. Es ist sehr einfach, auf Ihrer Konsole aufzunehmen.",
+          "Epic Games Usernames: Dieses Spiel ist nur gültig, wenn es zwischen den oben genannten Epic Games Usernamen gespielt wird. Wenn Sie einverstanden sind, das gesamte Spiel zu spielen und zu verlieren, wird Ihre Streitigkeit nicht berücksichtigt.",
+          "Wenn ein Spielerergebnis gemeldet wird, hat der andere Spieler 30 Minuten Zeit, um das Ergebnis zu bestätigen oder das Ergebnis wiedersprächen, andernfalls wird das Ergebnis automatisch bestätigt.",
+          "Warnung: Falsche oder falsche Ergebnisse führen sofort zu Geldstrafen.",
+          "1. Falsche Ergebnisbenachrichtigung = 5 Euro",
+          "2. Falsche Ergebnisbenachrichtigung = 25 Euro",
+          "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + Sperrung Ihres Kontos.",
+          "Bei allen Spielen, für die mehr als ein Spiel erforderlich sind, muss das nächste Spiel maximal in  15 Minuten nach Ende des vorherigen Spiels spielbereit sein. Andernfalls ist dies ein Grund für die Disqualifikation."
+        ]
+      }
+    },
+    "JoinMatchFor": "Spiel beitreten für",
+    "WaitingAcceptance": "Warten auf Annahme",
+    "Accept": "Akzeptieren",
+    "Deny": "Ablehnen",
+    "HasJoined": "ist deinem Match beigetreten",
+    "EnterScore": "Punktestand eingeben",
+    "LeaveMatch": "Verlasse dieses Spiel",
+    "Step": "Schritt",
+    "AddedOpponent": "Ich habe meinen Gegner hinzugefügt.",
+    "OpponentJoined": "Mein Gegner ist beigetreten",
+    "Draw": "Es ist Unentschieden! - Bitte stellen Sie sicher, dass ein Spieler dieses Match gewinnt!"
+  },
+  "CreateMatch": {
+    "title": "Spiel erstellen",
+    "Crossplay": {
+      "Console": "Crossplay (PS4/XB1 Only)",
+      "All": "Crossplay (PS4/XB1/PC)"
+    },
+    "CustomAmount": "benutzerdefinierte Menge",
+    "ChooseConsole": "Wähle deine Konsole",
+    "ChooseGame": "Wähle ein Spiel",
+    "YourWager": "Dein Einsatz",
+    "GameRules": "Spielreglen",
+    "WagerLimit": "Unter 1€ kann kein Spiel gestartet werden",
+    "NoPlatformSelect": "Bitte wählen Sie eine Plattform aus, um fortfahren zu können.",
+    "NoGameSelect": "Bitte wählen Sie ein Spiel aus, um fortfahren zu können.",
+    "NoWager": "Bitte wählen Sie Ihren Einsatz, um fortfahren zu können."
+  },
+  "Notifications": {
+    "MatchCreated": "Ihr Match wurde erstellt.",
+    "AddedOpponent": "Ihr Gegner hat Sie hinzugefügt.",
+    "JoinedOpponent": "Ihr Gegner hat bestätigt, dass Sie hinzugefügt haben.",
+    "OpponentJoined": "Ihr Gegner hat das Spiel betreten und wartet auf Sie.",
+    "OpponentLeaved": "Ihr Gegner hat das Spiel verlassen.",
+    "JoinAccepted": "Deine Teilnahme für das ausgewählte Spiel wurde akzeptiert.",
+    "JoinDenied": "Deine Teilnahme für das ausgewählte Spiel wurde abgelehnt.",
+    "ScoreEntered": "Ihr Gegner hat den Spielstand eingegeben, bitte geben sie den Spielstand innerhalb 15 Minuten ein.",
+    "ScoreApproved": "Ihr Gegner hat das Ergebnis bestätigt.",
+    "MatchDispute": "In der Ergebnisbenachrichtigung ist ein Konflikt aufgetreten. Bitte senden Sie ein Bild vom Ergebniss."
+  },
+  "Services": {
+    "Tournaments": {
+      "Match Length": "Länge anpassen",
+      "Game Type": "Spiel Typ",
+      "Game Map": "Spielkarte",
+      "Game Perspective": "Spielperspektive",
+      "Star Level": "Sterne-Level",
+      "Legacy Defending": "Legacy-Verteidigung",
+      "Half Length": "Halbe Länge",
+      "Team Type": "Team-Typ",
+      "Ruleset": "Regelsatz",
+      "Team Size": "Teamgröße"
+    }
+  },
+  "Auth": {
+    "Login": "ANMELDEN",
+    "Register": "REGİSTRİEREN",
+    "ForgotPassword": "PASSWORT VERGESSEN?",
+    "EnterMail": "Enter your email address to reset your password.",
+    "Email": "E-mail",
+    "Password": "Password",
+    "FormReach": "Ihr Formular hat uns erreicht. Danke."
+  },
+  "TransactionHistory": {
+    "AccountBalance": "Guthaben",
+    "Balance": "Guthaben",
+    "BonusBalance": "Bonus Guthaben",
+    "Type": "Type",
+    "Status": "Status",
+    "Amount": "Betrag",
+    "Description": "Zahlungmethode/Beschreibung",
+    "Date": "Datum/Zeit",
+    "PaymentType": "Zahlungsart",
+    "Total": "Gesamt"
+  },
+  "Disputes": {
+    "1": "Unstimmigkeit des Spiels",
+    "2": "Dieses Spiel ist in den Streitprozess eingetreten, weil beide Spieler widersprüchliche Ergebnisse eingereicht haben. Bitte reichen Sie die untenstehenden Nachweise ein, aus denen hervorgeht, dass Sie gewonnen haben. Wir werden die Gewinne dem richtigen Spieler zuweisen. Misstände und Streitigkeiten werden innerhalb von 24 Stunden behoben. Bitte haben Sie etwas Geduld.",
+    "3": "Warnung:",
+    "4": "Fälschungen oder falsche Ergebnisse führen zu sofortigen Geldstrafen.",
+    "5": "1. Falsche Ergebnisbenachrichtigung = 5 Euro",
+    "6": "2. Falsche Ergebnisbenachrichtigung = 25 Euro",
+    "7": "3. Falsche Ergebnisbenachrichtigung = Beschlagnahme Ihres gesamten Guthabens + die Sperrung Ihres Kontos.",
+    "8": "Bitte laden Sie Bilder ihres Spielstandes hoch, indem Sie auf den unteren Knopf klicken. Zeigen Sie uns wer gewonnen hat und wie hoch die Punktzahl war. Stellen Sie sicher, dass ihre Gamertags sichtbar sind."
+  }
+}

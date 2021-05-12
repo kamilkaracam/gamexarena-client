@@ -1,0 +1,634 @@
+{
+  "iso-code": "tr",
+  "validations": {
+    "required": "{label} gereklidir.",
+    "email": "Geçerli bir e-posta adresi olmalıdır.",
+    "minLength": "{label} en az {min} karakter uzunluğunda olmalıdır.",
+    "maxLength": "{label} en fazla {max} karakter uzunluğunda olmalıdır.",
+    "sameAs": "{label} şifre ile aynı olmalıdır.",
+    "alphaNum": "{label} sadece alphanumeric karakter biçimini kabul etmektedir."
+  },
+  "inputs": {
+    "email": "E-Posta",
+    "first_name": "İsim",
+    "last_name": "Soyisim",
+    "password": "Şifre",
+    "username": "Kullanıcı Adı",
+    "birthday": "Doğum Günü",
+    "birthmonth": "Doğum Ayı",
+    "birthyear": "Doğum Yılı",
+    "tournament": "Turnuva",
+    "new_password": "Yeni Şifre",
+    "repeat_password": "Şifre Tekrar",
+    "state": "Eyalet / İl",
+    "postal_code": "ZIP / Posta Kodu",
+    "city": "İl / İlçe",
+    "country_id": "Ülke",
+    "gender": "Cinsiyet",
+    "timezone_id": "Saat Dilimi"
+  },
+  "buttons": {
+    "SaveChanges": "Değişikliği Kaydet",
+    "ChangePassword": "Şifre Değiştir",
+    "Save": "Kaydet",
+    "Continue": "Devam Et",
+    "AddMoney": "Para Ekle",
+    "Withdraw": "Para Çekme",
+    "Close": "Kapat"
+  },
+  "Withdraw": {
+    "Payment": "Ödemeler 1-5 iş günü içerisinde yapılır ve 0.,73 cent'e kadar bir işlem ücreti alınabilir."
+  },
+  "Alert": {
+    "ChangePassword": "Şifreniz başarıyla değiştirilmiştir.",
+    "PersonalDetails": "Kişisel bilgileriniz güncellenmiştir.",
+    "CreateMatch": {
+      "PaymentRequired": "Ödeme Gerekli.",
+      "SelectPlatform":"Platform seçmeden ilerleyemezsiniz.",
+      "SelectGame":"Oyun seçmeden ilerleyemezsiniz.",
+      "SelectWager":"Bahis miktarı seçmeden ilerleyemezsiniz."
+    }
+  },
+  "Welcome": "GAMEARENA'YA HOSGELDINIZ",
+  "VideoHeaders": {
+    "HowDoYouPlay": "NASIL OYNANIR",
+    "HowWeWork": "NASIL ÇALIŞIYORUZ"
+  },
+  "Email":{
+    "Verify":"DOĞRULA"
+  },
+  "SkillToCash": "Yeteneğinizi nakite çevirin!",
+  "SkillToCashDesc": "Dünya çapındaki tüm oyunculara karşı PC, XBOX ya da PlayStation ile video oyunu oynayarak para kazanın!",
+  "CreateAccount": "Hesap Aç",
+  "loginAccount": "Giriş Yap",
+  "UntilRelease": "Büyük açılışa kalan süre",
+  "EarlyAccessMessage": "Erken üye ol ücretsiz olarak büyük ödüllü turnuvalara katilma hakki kazan.",
+  "Days": "Days",
+  "Hours": "Hours",
+  "Minutes": "Minutes",
+  "Seconds": "Seconds",
+  "HowItWorks": "Nasıl Çalışır?",
+  "HowItWorksStep1": "Rakibini bul",
+  "HowItWorksStep2": "Kendi oyununu kendi arenanda Xbox, PC ya da Playstation`da rakibine karşı oyna",
+  "HowItWorksStep3": "Rakibini yen ve ödülünü kazan!",
+  "tournamentNotificationImage": "/static/assets/img/notification/tr-big.png",
+  "OpeningModalImage": {
+    "base": "{BASE_URL}/static/assets/img/notification/tr-big.png",
+    "sizes": "{BASE_URL}/static/assets/img/notification/tr-big.png 1200w, {BASE_URL}/static/assets/img/notification/tr-small.png 700w"
+  },
+  "ForgotPassword": "Şifremi Unuttum?",
+  "AboutUsHeader": "Game X Arena Platformu nedir",
+  "AboutUsText": "Oyuncular için oyuncular tarafindan kurulmuş olup, amacı sanal ödülleri somutlaştırarak oyunculara gerçek ödül kazanma şansı sağlamak olan, Online maç ve turnuvalar düzenleyen sosyal bir platformdur. ",
+  "WhatIsGamexarenaQ": "Game X arena PLATFORMU NEDİR?",
+  "WhatIsGamexarenaA": "Oyuncular sponsorlar tarafından düzenlenen ödüllü turnuvalarda oyun oynarken, para kazanarak yeteneklerini nakde dönüştürmesine yarayan bir oyuncu platformudur. Turnuvalarımızı XBOX ONE, PLAYSTATION ve PC’de yapmaktayız.",
+  "HowDoISignUpQ": "NASIL ÜYE OLABİLİRİM?",
+  "HowDoISignUpA": "Ana sayfada bulunan hesap aç linkine tıklayarak üye kaydınızı oluşturabilirsiniz.",
+  "DoesItCostQ": "ÜYE OLMAK İÇİN HERHANGİ BİR BEDEL ÖDEMEM GEREKİYORMU?",
+  "DoesItCostA": "Hayır Game X arenA  platformu tamamen ücretsizdir.",
+  "IsLegalQ": "GAMEXARENA PLATFORMU YASALMI?",
+  "IsLegalA": "Oyuncuların yeteneklerini sergileyebilecekleri bir platformdur, üyelik ücreti alınmaz sponsorların belirledikleri ödülleri düzenlenen turnuvalarda derece alan oyunculara dağıtır. Ayrıca bireysel turnuva seçeneği herhangi bir şekilde, 3. bir şahıs ile ilişkili olmadığından yasaldır.",
+  "IsSecureQ": "GAMEXARENA PLATFORM ALT YAPISI GÜVENİLİRMİ?",
+  "IsSecureA": "Game X arenA  üyelerinden aldığı kayıt bilgilerini 2. bir kuruluşla paylaşmaz herhangi bir firmaya para karşılığı vermez.Alt yapımız en üst düzey güvenlik kuralları ile şahsınıza ait banka hesap bilgilerini korumak amaçlı kriptolanmıştır.",
+  "HowDoesWorkQ": "GAMEXARENA PLATFORMU NASIL İŞLER?",
+  "HowDoesWorkA": "<p>İlk olarak gamexarena.com ana sayfamıza girerek üye olmanız gerekmektedir. Üye olduktan sonra Platformumuz üzerinden ödül kazanabilmeniz için maçlar kısmından tercihinize göre isterseniz bireysel rakiplerine karşı direk maç yapıp ödül kazanabilirsin. Yada turnuva sayfamıza gidip sponsorlu turnuvalara katılıp turnuva ödüllerini kazanabilirsin.</p> <p>Bireysel turnuvalar kısmına girip herhangi maç isteğini kabul edersen ,Kurucu tarafından belirlenmiş olan giriş ücretini ödemeyi kabul etmiş olursun .Maç ücreti senin ve rakibinin mevcut bakiyesinden anlaştığınız ölçüde alınır ve ortak havuza aktarılır. Maçı kazanan taraf ortak havuzdan parasını alır. </p> <p>Sponsor turnuvalarında ise Game X arenA   platformu sponsorlardan aldığı direktifler doğrultusunda planladığı turnuvaları kullanıcı taleplerine açar. Katılmak isteyen üyelerden katılım taleplerini alır. platform katılımcılar arasında eşleşme sağlar. Platform yönetimi eşleşmeleri ilan eder. Oyuncular site içerisindeki oyun kurallarına göre birbirlerini online olarak oyun ağında bulur. Turnuva kurallarında belirtildiği şekilde kazanma durumu gerçekleştiğinde oyuncular yönetimle maç sonucunu paylaşır. Game X arenA   oyun skorunun kanıtlanması için ekran görüntüsü ya da video talep etme hakkına sahiptir. Turnuva son oyuncu kalana kadar devam eder daha sonra ödül kazanana aktarılır.</p><p>Aynı şekilde tüm işleyiş bireysel turnuvalar içinde geçerlidir. Kullanıcıların açtığı turnuva talepleri ödül bilgisinin girilmesinden sonra g Game X arenA   üzerinden ilan edilir turnuva düzenleyicisi olan üye giriş için ücret ya da koşul talep edebilir. Mantıklı olan her şey Game X arenA   platformu tarafından kabul edilecektir. Turnuva kurucusu üye tarafından belirlenen ücret ve koşullar kurucu içinde geçerlidir.</p>",
+  "WhatVideoGamesQ": "HANGİ OYUNLAR ÜZERİNDEN TURNUVALAR DÜZENLENMEKTEDİR?",
+  "WhatVideoGamesA": "FORTNİTE, MADDEN, NBA 2K, FIFA, PUBG, NHL, CALL OF DUTY (WW2, BLACK OPS 4, INFİNİTE WARFARE, MODERN WARFARE REMASTERED, & BLACK OPS 3 oyunlarının online modlarında düzenlenmektedir.",
+  "TournamentsQ": "Game X Arena TURNUVALARI",
+  "TournamentsA": "<p>Turnuvalar oyuncular için yüksek kazanç  elde edebilecekleri büyük bir fırsattır . Game X Arena bünyesinde 2 tür turnuva tipi bulunmaktadır . Sponsorlu ve sponsorsuz olarak.</p><ol><li>Sponsorlu turnuvanın Tarihi önceden açıklanır ve herhangi bir giriş ücreti yoktur. (Sponsorun isteği doğrultusunda anket doldurma site ziyareti yada ürün kullanma gibi Game X arenA  turnuva düzenleme kuralları dahilinde meşru istekler olabilir) .Tarihi gelince turnuva oyuncu sayısına bakmaksızın başlar</li><li>Sponsorsuz Turnuva ,Girişi ücretli olup ücreti kurucu tarafından belirlenmiştir toplanılan para havuzda toplanır kazanan oyuncuya masraflar düşüldükten sonra aktarılır.</li></ol><p>Turnuva kurucunun istediği oyuncu sayısına ulaşınca başlar.</p><p>Turnuva kurucunun istediği oyuncu sayısına ulaşınca başlar.</p>",
+  "HowCanIJoinQ": "TURNUVALARA NASIL DAHİL OLABİLİRİM?",
+  "HowCanIJoinA": "Üye girişi yaptıktan sonra sponsor yada bireysel turnuva seçeneklerinden dilediğinize girip açık olan turnuvalardan birini seçerek katıl butonunu ile katılabilirsiniz. Katılım koşullarına dikkat ediniz.",
+  "HowCanICreateQ": "NASIL MAÇ DÜZENLİYEBİLİRİM?",
+  "HowCanICreateA": "Kullanıcı menüsünde bulunan maç oluştur menüsüne girerek , düzenlemek istediğiniz ; turnuvanın Tipini >Platformunu> Hangi oyun olacağını > Katılım koşullarını > Katılma ücretini > Handikap verilecekse handikabı> Oyun süresini seçerek oluşturabilirsiniz.",
+  "HowDoIPlayQ": "NASIL MAÇ OYNAYABİLİRİM?",
+  "HowDoIPlayA": "<p>Kesin adımlar oyuna göre değişir, ancak genel olarak:</p><ol><li>Rakibinizi, Gamertag veya Kullanıcı Adlarını kullanarak Xbox Live, PSN veya PC'de arkadaş olarak ekleyin.</li><li>Çevrimiçi olarak arkadaş oynayabileceğiniz oyun moduna gidin. Örneğin, FIFA'daki Çevrimiçi Dostluklar modu</li><li>Rakibinize bir oyun davetiyesi gönderin.</li><li>Eşleşme kurallarını ve ayarlarını kontrol edin ve onaylayın.</li><li>Maçı başlatın.</li></ol><p>Note: Be sure to take video/pictures/screenshots of the match final score in case of a dispute about the match result.</p>",
+  "WhatHappensDisconnectQ": "TURNUVA SIRASINDA BEN YA DA RAKİBİMİN BAĞLANTISI KOPMA DURUMUNA DÜŞERSE NE OLUR?",
+  "WhatHappensDisconnectA": "Bu gibi durumlarda oyun kaldığı yerden , mevcut skorla devam eder. Oyunun hemen başında kopma gerçekleşmişse yeniden maç yapılabilir ama oyun başlamış ve skorboarda sayılar işlenmişse oyun kaldığı yerden devam eder. Eğer kasti olarak oyundan çıkma durumu varsa bunu oyunda kalan oyuncu ekran görüntüsü ve video kaydı alarak Game X arenA   yönetimine bildirir. Haksızlık yapan oyuncu hükmen mağlup sayılır.  Bu gibi durumlarda oluşabilecek hak kayıpları oyuncuların sorumluluğundadır. Game X arenA   Platformu online bir platformdur yararlanabilmek için aktif düzenli bir internet alt yapınızın bulunması gerekmektedir.",
+  "WhatAreDisputesQ": "OYUNU KAZANDIĞIMI NASIL ANLARIM?",
+  "WhatAreDisputesA": "Turnuva koşullarında belirtilen yenmiş olma durumuna erişince oyuncular kazanmış sayılır. Sonucu iki tarafın da Game X arenA   platform yönetimine ekran görüntüsü alarak bildirmesi gerekmektedir. Tek taraflı bildirme durumunda kazandığını ispat eden taraf kazanmış kabul edilecektir. Game X arenA   oyuncuların herhangi hak kaybına uğramaması için oyunlarını baştan sona kayıt etmelerini şiddetle tavsiye eder.",
+  "HowMatchFeeWorksQ": "OYUN ÜCRETLERİ NELERDİR ?",
+  "HowMatchFeeWorksA": "Eğer bireysel bir turnuva düzenlerseniz ,Game X Arena Platformu düzenlenen turnuva ödülünün 10% ‘luk bir kısmını  transaksiyon ve giderler kalemleri adı altında havuzdan tahsil eder. Yani eğer 10 Euro’luk ödüllü bir turnuva açarsanız ,Taraflar 10’ar Euro öder havuzda 20 Euro toplanır giderler düşüldükten sonra kazananın alacağı ödül 18 Euro olur. ",
+  "MonthlyChargesQ": "Game X Arena KREDİ KARTIMDAN AYLIK ÜCRET ÇEKERMİ?",
+  "MonthlyChargesA": "Hayır Game X Arena sizden hiç bir aylık ücret çekmez.",
+  "HeadToHeadQ": "MİNİMUM BİREYSEL TURNUVA ÖDÜLÜ NE KADAR BELİRLENEBİLİR ?",
+  "HeadToHeadA": "Kendi açacağınız turnuvalarda minimum 10 TL’sine ve maksimum 3000 TL sine oynayabilirsiniz.",
+  "RatingSystemQ": "GAME X ARENA RANKİNG SİSTEMİ NEDİR ?",
+  "RatingSystemA": "Game X Arena FairPlay’e çok önem veren bir Platformdur. Oyuncuların yetenek seviyelerinin birbirine yakın olmasına özen göstermekteyiz. Bundan dolayı Platformumuza Ranking Sistemi koyduk. Ranking sistemi her oyuncuya tamamlamış olduğu 3 maçtan sonra aldığı sonuçlara göre bir ranking puanı verir. Böylece uzman oyuncular ve hobi amaçlı oyuncuların tesadüfi karşılaşmalarının önüne geçilmiş olur.(Dövüşmeyi bilmediğini iddia eden birinin Siyah Kuşak Karateci çıkması gibi) Ve her oyuncunun kazanma şansını GameXarenA tarafından güvence altına alınmış olur.",
+  "HowOldQ": "GAME X ARENA ÜYELERİ İÇİN YAS SINIRI VARMIDIR?",
+  "HowOldA": "Evet Game X Arena üyeleri 18 yaşından büyük olmak zorundadır.",
+  "MoreThanAccountQ": "BİRDEN FAZLA HESAP SAHİBİ OLABİLİR MİYİM?",
+  "MoreThanAccountA": "Hayır şahıslar Game X Arenada sadece bir hesap açabilir .Banlanan oyuncuların Konsol ID ve oyun hesap isimleri de Banlanır.",
+  "SupportHeader": "Destek",
+  "SupportText": "Herhangi bir sorununuz mu var? Site hakkında desteğe mi ihtiyaç duyuyorsunuz? Sıkça sorulan sorulardaki cevaplar da aradığınızı bulamadınızmı? Eğer bunların hepsine evet olarak cevap verdiyseniz info@gamexarena.com ile irtibat kurabilirsiniz. Sorununuza çözüm bulacağımızdan emin olabilirsiniz.",
+  "UnderConstruction": "Sayfamız yapım aşamasındadır.",
+  "EnterEmailAddress": "Şifrenizi sıfırlamak için E-posta Adresinizi girin.",
+  "PasswordResetted": "Parolanız sıfırlandı giriş yapabilirsiniz.",
+  "HeaderNavigation": {
+    "AboutUs": "Hakkımızda",
+    "Tournaments": "Turnuvalar",
+    "Rules": "Kurallar",
+    "Faq": "S.S.S",
+    "Profile": "Profil",
+    "Matches": "Maçlar"
+  },
+  "FooterNavigation": {
+    "About": "HAKKINDA",
+    "Help": "YARDIM",
+    "AboutUs": "Hakkımızda",
+    "Rules": "Kurallar",
+    "Faq": "S.S.S",
+    "PrivacyPolicy": "Gizlilik Sözleşmesi",
+    "Support": "Destek",
+    "TermsOfUse": "Kullanım Şartları"
+  },
+  "ProfileNavigation": {
+    "GameSettings": "Oyun Ayarları",
+    "TransactionHistory": "Hesap Hareketleri",
+    "GamerTags": "Oyuncu İsimleri",
+    "ChangePassword": "Şifre Değiştir",
+    "PersonalDetails": "Hesap Ayrıntıları"
+  },
+  "MeNavigations": {
+    "AddMoney": "Para Ekle",
+    "Withdraw": "Para Çek",
+    "CreateChallenge": "Maç Oluştur",
+    "CreateMatch":"MAÇ OLUŞTUR",
+    "MyProfile": "Profilim",
+    "MyGames": "Oyunlarım",
+    "Games": "Oyunlar",
+    "Rules": "Kurallar",
+    "TransactionHistory": "Ödeme Geçmişi",
+    "FAQ": "SSS",
+    "AccountSettings": "Hesap Ayarları",
+    "Logout": "Çıkış",
+    "EditProfile": "Profili Düzenle"
+  },
+  "Tournaments": {
+    "Platform": "Platform",
+    "Prize": "Ödül",
+    "Date": "Tarih",
+    "JoinButton": "TURNUVAYA KATIL",
+    "CantJoin": "Bir turnuvadan daha fazlasına katılamazsınız.",
+    "JoinerCount": "Katılımcı Sayısı",
+    "Info": "BİLGİ",
+    "Join": "Katıl",
+    "title": "{0} Turnuvası",
+    "TournamentStart": "Turnuvalarımız 5000 katılımcı sayısına ulaşınca başlayacaktır.",
+    "starting_date": "Tournaments starts {0}",
+    "Prizes": {
+      "title": "ÖDÜL",
+      "prize": "| {n}st {prize} Nakit | {n}nd {prize} Nakit | {n}rd {prize} Nakit | {n}th {prize} Nakit"
+    },
+    "TournamentDetails": {
+      "title": "TURNUVA DETAYLARI",
+      "StartTime": "Başlangıç Zamanı",
+      "Game": "Oyun",
+      "MatchLength": "Maç Uzunluğu",
+      "GameType": "Oyun Tipi"
+    },
+    "HowToPlay": {
+      "title": "NASIL OYNANIR",
+      "fortnite": {
+        "list1": [
+          "Fortnite Battle Royale lobisinde, ilk oyuncu oyun modunu Duo'ya ayarlar.",
+          "Ev sahibi oyuncu rakibini Epic Friends List'e ekler ve onu oyuna davet eder.",
+          "Davet edilen oyuncu katıldığı zaman ana oyuncu oyunu başlatır ve oyun başlar.",
+          "İlk oyundan sonra oyuncular ana bilgisayarları(Ev sahibi deplansman takimi rolü degisir) değiştirir ve bir kez daha oynarlar.",
+          "Her iki oyunun sonunda toplamda en çok öldüren oyuncu kazanır."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "PUBG ana ekranında, ana bilgisayar oyun modunu Duo'ya ayarlar.",
+          "Ana oyuncu rakibini Arkadaş Listesine ekler ve onu oyuna davet eder.",
+          "Konuk katıldıktan sonra ana bilgisayar oyunu başlatır ve oyun başlar.",
+          "Oyunun sonunda en çok öldüren oyuncu kazanır. ",
+          "Ölünce skorunun bir resmini çekip rakibinize gönderin ve maç sohbetinde yayınlayın. Bu bir şarttır. Bunun yapılmaması, oyununuzun kaybedilmesine yol açacaktır."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Rakibinizi PSN'ini kullanarak Playstation Network'te  yada XBOX `da bir arkadaş olarak ekleyin.",
+          "FIFA'da Online sekmesine gidin, ardından Online Arkadaşlıklar modunu açın.",
+          "Yeni bir sezon başlatın ya da rakibinizle mevcut sezonu açın.",
+          "Eşleşme kurallarını ve ayarlarını kontrol edip onaylayın.",
+          "Maçı başlatın."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Rakibinizi PSN'lerini kullanarak Playstation Network'te bir arkadaş olarak ekleyin.",
+          "Multiplayer modunu seçin. ",
+          "Custom Game’i seçin. ",
+          "Rakibinizi arkadaşlarınızın arasından oyuna davet etmek için Üçgen tuşuna basın. ",
+          "Haritayı ve ayarları seçin. ",
+          "Maçı başlatın."
+        ]
+      }
+    },
+    "GameRules": {
+      "title": "OYUN KURALLARI",
+      "fortnite": {
+        "list1": [
+          "Siz ve rakibiniz bir Duo takım olarak iki defa birlikte oynayacaksınız ve bu oyunların sonunda toplamda en fazla kişi öldüren kazanmış olacak.",
+          "Ölmeden öldürmeler: Düşüşün gerçekleştiği sırada, yerde iken gerçekleştirdiğiniz tüm ölümler, skorunuza eklenir. Ancak öldükten sonra öldürürseniz (örneğin kurduğunuz tuzaklar sayesinde biri ölürse) bu skorunuza eklenmez.",
+          "Beraberlik: Eğer siz ve rakibiniz oyunu aynı miktarda öldürmeyle bitirirseniz, bir oyuncu diğerinden daha fazla ölümle bitirene kadar maçı tekrar oynayacaksınız.",
+          "Lag / Ayarlar: Otobüse bindikten sonra, lag veya oyun öncesi ayarları ile ilgili herhangi bir şikayet istisnasız olarak asla dikkate alınmayacaktır. ",
+          "Rakibi engellemek: Rakibinizin öldüreceği adamı öldürmek (Kill-Stealing) oyunun rekabetçi doğasının bir parçasıdır ve tamamen serbesttir, ancak oyunun adil olması adına aşağıda belirtilen kurallar getirilmiştir.",
+          "YASAK OLAN eylemler:",
+          "Rakibin sığınak, siper olarak veya farklı bir amaçla aktif olarak kullandığı herhangi bir yapıyı yıkmak veya kasten zayıflatmak. ",
+          "Rakibinizin ıskalamasına sebep olmak",
+          "Rakibin önünde veya etrafında yapı yapmak. (Kasıtlı olarak hareket etmesini önlemek.)",
+          "SERBEST OLAN eylemler:",
+          "Takım arkadaşınızın (rakibinizin) etrafında yaylım ateşi yaparak diğer rakipleri çekmek.",
+          "Kendini oluşturacağın yapıların içine saklanıp etrafını kapatmak suretiyle hapsetmek.",
+          "Takım arkadaşını (rakibini) takip etmek.",
+          "Kendi oluşturduğunuz yapıları yıkmak veya onlara hasar vermek.",
+          "Oyunu kaybederseniz ve rakibinizin yukarıda belirtilen yasaklanmış yollardan herhangi biriyle kazandığını düşünüyorsanız, maç bittiğinde mac sonucu girdikten sonra kazandığınızı iddia ederek itiraz edin. Bunu yaptıktan sonra itirazınızda neler yaşandığını açıklayın ve itiraz ekranında izin verilen süre içerisinde kanıt video’nuzu sisteme kaydedin. ",
+          "Yukarıdaki liste her kuralı kapsamaz. GameXArena yöneticileri, yukarıdakilere ek olarak adil ve hakkaniyetli bir mücadele için kural ekleme, kuralları değiştirme ve yorumlama hakkını saklı tutar. ",
+          "Bağlantı Kesilmesi: Oyun öncesi ısınma sırasında bir oyuncunun bağlantısı kesilirse, oyun tekrar oynatılmalıdır. Oyun sırasında bağlantınız kesilirse ve oyundan düşerseniz, ölmüş sayılırsınız. Bağlantınız kesildiğinde sahip olduğunuz öldürme sayınız, skorunuz olarak kaydedilir. Bağlantınız kesildikten sonra bile rakibiniz oynamaya devam edebilir."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "Siz ve rakibiniz bir Duo takım olarak aynı oyuna katılacak ve en çok kişiyi öldürmek için yarışacaksınız. Oyunun sonunda en çok öldüren oyuncu kazanır.",
+          "Kanıt: Rakibinizle birbirinizin öldürme sayılarınızı göremediğinizden, her oyun için öldürmelerinizin kanıtını almalısınız. En azından, öldüğünüzde çıkan ekranda öldürme sayınızın ekran resmini almanız gerekir. Bu resmi, maç sohbetinde bir link göndererek rakibinizle paylaşmalısınız. (Gyazo, imgur, vb. araçları kullanabilirsiniz.)",
+          "Yerdeyken Öldürmek: Düştüğünüz sırada öldürdüğünüz herhangi bir öldürme, skorunuza dahildir sayılır. Ancak ölümünüzden sonra öldürmüş olursanız, bu skorunuza eklenmez.",
+          "Berabere: Eğer siz ve rakibiniz oyunu aynı miktarda öldürmeyle bitirirseniz, bir oyuncu diğerinden daha fazla öldürmeyle bitirene kadar maçı tekrar oynayın.",
+          "Tekrarlar: Replays aktifken oynamalısınız. Bir itiraz durumunda, itirazla alakalı kısmın tekrarı veya tüm oyununuzun videosu istenir. Eğer bunu yapamazsanız, itirazınız değerlendirmeye alınmaz.",
+          "Host: İlgili oyuncular tarafından aksi kararlaştırılmadıkça, handsoff bu maçın sunucusu olacaktir ",
+          "Rakibinizle uğraşmak, haksızlık yapmak: Siz ve maçtaki rakibiniz birlikte çalışabilirsiniz. Bununla birlikte, oyun sırasında rakibinizi aktif olarak engelleyemezsiniz. Bu, takım içi öldürmeyi, rakibinizin hareket etmesini kasıtlı olarak engellemeyi, el bombalarıyla vurmayı vb. İçerir.",
+          "Araçlar ile ilgili olarak: Rakibinizin aracına atlayabilirsiniz, ancak araçtayken başınıza gelebilecek herhangi bir şeyden rakibiniz sorumlu tutulmaz. Rakibiniz uçurumdan atlarsa veya onun arabadaki hatasıyla ölürseniz, bu hile veya haksızlık olarak kabul edilmez. Rakibiniz bunun için oyunu kaybetmez.",
+          "Herhangi bir kural ihlalinin kanıtı, oyunun kaybedilmesine yol açacaktır. ",
+          "Kill-Stealing : Rakibin öldürmek üzere olduğu birini öldürmek, kurallara aykırı değildir.",
+          "Bağlantı Kesilmesi: Oyun öncesi ısınma sırasında bir oyuncunun bağlantısı kesilirse, oyun tekrar oynanır. Oyun yere indiğinizde değil, uçakta olduğunuzda başlayacak kabul edilir. Oyun sırasında bağlantınız kesilirse, ölmüş sayılırsınız. Puanınız, bağlantınız kesildiğinde sahip olduğunuz öldürme sayısına eşittir. Rakibiniz, siz oyundan ayrıldıktan sonra bile oynamaya devam edebilir.",
+          "GameXArena yöneticileri, yukarıdakilere ek olarak adil ve hakkaniyetli bir mücadele için kural ekleme, kuralları değiştirme ve yorumlama hakkını saklı tutar."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Lag  / Ayarlar / Takımlar: 1 dakikalık oyun süresinden sonra, lag, oyun öncesi ayarları veya yasaklı takımlarla ilgili şikayetler dikkate alınmayacaktır. İstisna yok. (Not: WiFi yerine bir LAN kablosu kullanırsanız bağlantı çok daha iyidir.)",
+          "Bağlantı kopuklukları: Bir bağlantının kesilmesi durumunda, siz ve rakibiniz maçın kalan kısmını başka bir maçta tamamlamalısınızdır, skoru da kopmuş olan oyundakiyle aynı tutmalısınız. Örneğin, bağlantı kesilmesi 30. dakikada gerçekleşmişse, yeni oyun 60'a kadar oynanmalıdır. Bir itiraz durumunda tüm oyun görüntülerinin video kaydını yapmanızı öneririz.",
+          "Eğer kopma sonrası 15 dakika içinde maçı devam ettiremezseniz, Game X Arena takdir hakkını kullanarak maçta karar verebilir. Eğer kaybeden tarafsanız ve bağlantınız kopmuşsa, mağlup sayılırsınız. Kazanan taraf olduğunuz takdirde, maç iptal edilebilir veya şartlara bağlı olarak mağlup sayılabilirsiniz. Kaybeden tarafın oyuna bağlanmaya çalışması bir kıstastır. Kaybeden tarafsanız ve 15 dakika içinde tekrar oynamaya teşebbüs etmediyseniz, maçı kaybedersiniz.",
+          "Sadece Online Squads: Maçlar sadece 'Online Squads' ile oynanmalıdır. Özel Ekipleri veya düzenlenmiş oyuncuları kullanmaya yönelik herhangi bir girişim varsa, otomatik olarak maçı kaybedersiniz ve mağlup sayılırsınız.",
+          "Özel Oluşum Yok: İlgili Oyuncular tarafından üzerinde anlaşılmadıkça Özel Formasyonların kullanımına izin verilmez. Bir ihtilaf durumunda, göz önünde bulundurulması için VİDEO KANIT OLMALIDIR ve karar, Game X Arena’nın takdirine bağlıdır.",
+          "Beraberlik: Eğer maç berabere biterse, oyuncular ikinci bir mac  oynanmalıdır. İkinci mac sırasında gol olmazsa, oyuncular karşılıklı anlaşarak penaltılara devam etmek, tekrar maç yapmak veyahut maçın iptal olmasında mutabık kalmalıdırlar.",
+          "(Yasaklandı ise) Efsane Savunma: Bu maçta Efsane Savunmanın kullanılmasına izin verilmez. Bir ihtilaf durumunda, göz önünde bulundurulması için VİDEO KANITLAMASI OLMALIDIR ve karar Game x Arena’nın takdirine bağlıdır."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Oyun Ayarları: Aksi belirtilmedikçe ayarlar aşağıdaki gibi olmalıdır:",
+          "Siz ve rakibiniz halka açık bir maça katılacak ve aynı takımda oynayacaksınız. Kimse maçı diğer oyuncudan daha çok ölümle bitirirse kazanır.",
+          "Kanıt: Her iki oyuncunun ölümü ile son skoru gösteren After Action Report (Son Eylem Raporu) ekran görüntüsüne ihtiyacınız olacak. Ancak video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuza kaydetmek çok kolay.",
+          "Yerdeyken öldürmeler: Yerdeyken gerçekleştirilen tüm ölümler, skorunuza dahildir. Öldükten sonra öldürülen ölümler (örneğin mayınla öldürmeler), skorunuza eklenmez.",
+          "Beraberlik: Eğer siz ve rakibiniz oyun sonunda toplamda aynı sayıda kişi öldürürseniz, en fazla hasar veren oyuncu kazanmış sayılır.",
+          "Gecikme / Ayarlar: Helikoptere girdikten sonra gecikme veya oyun öncesi ayarlarla ilgili şikayetler istisnasız olarak asla dikkate alınmayacaktır.",
+          "Friendly Fire / Rakip aleyhine haksızlık yapmak: Takım arkadaşına ateş etmeye (friendly fire) izin verilmez. Game X Arena yöneticileri, Friendly fire ve diğer tüm adil olmayan davranışları değerlendirme yetkisini saklı tutar.",
+          "Bağlantı Kesilmesi: Oyun öncesi ısınma sırasında bir oyuncunun bağlantısı kesilirse, oyun tekrar oynanmalıdır. Oyun sırasında bağlantınız koparsa, ölmüşsünüz gibi muamele edilir. Puanınız, bağlantınız kesildiğinde sahip olduğunuz öldürme sayısına eşit kabul edilir. Siz ayrıldıktan sonra bile rakibiniz oynamaya devam edebilir.",
+          "Kill-Stealing (KS Atmak): Kill-Stealing (rakibin öldürmek için mücadele ettiği ve muhtemelen öldürmek üzere olduğu kişiyi öldürmek) serbesttir ve kurallara aykırı değildir. "
+        ]
+      }
+    },
+    "GamexarenaRules": {
+      "title": "GAME X ARENA KURALLARI",
+      "fortnite": {
+        "list1": [
+          "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+          "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+          "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+          "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir) .",
+          "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+          "Epic Games Kullanıcı Adı: Maç sadece yukarıda listelenen Epic Games Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+          "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.Aksi taktirde skor otomatik bir sekilde onaylanir.",
+          "Bir turnuvaya katılan katılımcı sayısı 5000'den azsa, ödül 1 / 10'e düşürülecek ve kalan ödül  bir sonraki turnuvada verilecektir.",
+          "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+          "1. Yanlış Skor Bildirimi = 5 Euro/TL",
+          "2. Yanlış Skor Bildirimi = 25 Euro/TL",
+          "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+          "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+          "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+          "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+          "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir) .",
+          "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+          "Steam Kullanıcı Adı: Maç sadece yukarıda listelenen Steam Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+          "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.",
+          "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+          "Bir turnuvaya katılan katılımcı sayısı 5000'den azsa, ödül 1 / 10'e düşürülecek ve kalan ödül  bir sonraki turnuvada verilecektir.",
+          "1. Yanlış Skor Bildirimi = 5 Euro/ TL",
+          "2. Yanlış Skor Bildirimi = 25 Euro /TL",
+          "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+          "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+          "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+          "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+          "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir) .",
+          "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+          "PSN Kullanıcı Adı: Maç sadece yukarıda listelenen PSN Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+          "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.",
+          "Bir turnuvaya katılan katılımcı sayısı 5000'den azsa, ödül 1 / 10'e düşürülecek ve kalan ödül  bir sonraki turnuvada verilecektir.",
+          "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+          "1. Yanlış Skor Bildirimi = 5 Euro/TL",
+          "2. Yanlış Skor Bildirimi = 25 Euro/TL",
+          "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+          "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+          "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+          "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+          "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir).",
+          "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+          "PSN Kullanıcı Adı: Maç sadece yukarıda listelenen PSN Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+          "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.",
+          "Bir turnuvaya katılan katılımcı sayısı 5000'den azsa, ödül 1 / 10'e düşürülecek ve kalan ödül  bir sonraki turnuvada verilecektir.",
+          "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+          "1. Yanlış Skor Bildirimi = 5 Euro /TL",
+          "2. Yanlış Skor Bildirimi = 25 Euro /TL",
+          "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+          "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+        ]
+      }
+    }
+  },
+  "Rules": {
+    "title": "GAME X ARENA KURALLARI",
+    "paragraphs1": [
+      "Game X Arena'ya katılan  her oyuncu ile ödeme yapılmasını istediği PAYPAL veya SKRILL hesabı açmak zorundadır.",
+      "Ödül parasının aktarılacağı hesap oyuncu adına olmalıdır. Yanlış bildirilen hesaplardan Game X Arena yönetimi sorumlu değildir.",
+      "Turnuva da dereceye giren oyuncular ödüllerin adaletli dağıtıldığının ispatı için kazandıkları ödül paraları ile çektirdikleri resimleri ve videoları Game X Arena ile paylaşmak zorundadır.",
+      "Turnuva kurallarına uymayan hile yapan oyuncular ifşaa edilmeyi kabul etmektedir.",
+      "Turnuva organizasyonu Game X Arena tarafından yapılmaktadır. Oyuncular Game X Arena sistemine destek olmak için Game X Arena sosyal hesaplarını takip etmelidir. ",
+      "Turnuva sonuçları www.gamexarena.com ve Game X Arena  INSTAGRAM hesaplarından açıklandıktan sonra 1 hafta içinde dereceye giren oyuncuların ibraz ettikleri SKRILL veya PAYPAL hesaplarına transfer edilecektir.",
+      "Game X Arena sponsorlu turnuvalar için herhangi bir giriş ücreti talep etmemektedir. Turnuva kapsamında yapılacak bilgilendirmeler Game X Arena Instagram hesabından duyurulacaktır. www.gamexarena.com adresine ait Instagram hesapları @gamexarena ve @gamexarena.eng ‘dir",
+      "Başka hesaplardan yapılan duyurular asılsızdır itibar edilmemesi gerekmektedir.",
+      "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+      "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+      "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+      "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir).",
+      "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+      "Epic Games Kullanıcı Adı: Maç sadece  listelenen Epic Games Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+      "PSN Kullanıcı Adı: Maç sadece listelenen PSN Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+      "Steam Kullanıcı Adı: Maç sadece  listelenen Steam Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+      "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.Aksi taktirde skor otomatik bir sekilde onaylanir.",
+      "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır."
+    ],
+    "list1": [
+      "1. Yanlış Skor Bildirimi = 5 Euro/TL",
+      "2. Yanlış Skor Bildirimi = 25 Euro/TL",
+      "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban."
+    ],
+    "paragraphs2": [
+      "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+    ]
+  },
+  "Cancel": "İptal",
+  "Match": {
+    "NowPlaying": "Oynanıyor",
+    "EntryFee": "Giriş Ücreti",
+    "YouMayCancel": "Maçı istediğiniz zaman iptal edebilirsiniz.",
+    "Cancel": "İptal Et",
+    "GamerTag": "Oyuncu ismi ekleyiniz",
+    "Prize": "Ödül",
+    "MatchDetails": "Maç Detayları",
+    "OpenMatches": "Açık maçlar",
+    "OpenMatch": "Açık maç",
+    "Join": "Katıl",
+    "YourMatch": "Maçların",
+    "SubmitScore": "Skor Girisi",
+    "Acceptance": "Karşı tarafın onayı bekleniyor.",
+    "gameRules": {
+      "title": "Oyun Kuralları",
+      "fortnite": {
+        "list1": [
+          "Fortnite Battle Royale lobisinde, ev sahibi oyun modunu Playground’a (Oyun Alanına) ayarlar.",
+          "Ev sahibi oyuncu rakibini Epic Friends List'e ekler ve onu oyuna davet eder.",
+          "Davet edilen katıldığı zaman ana bilgisayar oyunu başlatır ve oyun başlar.",
+          "İlk önce hedeflenen skora ulaşan oyuncu oyunu kazanır.",
+          "Ölümler: Eğer maçta kendinizi herhangi bir sebepten ötürü öldürürseniz, rakibiniz sizi öldürmüş sayılır. Yani her ölümünüz karşı tarafa skor olarak eklenir.",
+          "Maç : Aksi belirtilmedikçe, belirlenen alanda diğer oyuncuyu öldüren ilk oyuncu kazanır",
+          "Yer: Belirlenen alanı terk etmek kaybetmenize neden olacaktır.",
+          "Yeniden Doğuş: Bir oyuncunun ölümünden sonra 30 saniye dokunulmaz süresi vardır ve bu sürede öldüğünde düşürmüş olduğu eşyaları toplar. Eğer kurallarınızda birden fazla öldürme yapıyorsanız (örneğin 3 olan kazanıyorsa) ve rakibin doğduğu yerde pusu kurulduğu tespit edilirse, Game X Arena takdir yetkisini kullanarak maçı iptal edebilir veya pusu kuranı mağlup ilan edebilir.",
+          "Bağlantı kopuklukları: Bir bağlantı kopması durumunda, maça yeniden bağlamak ve oynamak için 15 dakikanız vardır. Bağlantının koptuğu anda kazanan tarafsanız ve katılamıyorsanız, maç iptal edilir. Bağlantının koptuğu anda mağlup tarafta iseniz ve yeniden bağlantı kuramıyorsanız, kaybetmiş sayılırsınız.",
+          "Lag / Ayarlar: Otobüse bindikten sonra, lag veya oyun öncesi ayarları ile ilgili herhangi bir şikayet istisnasız olarak asla dikkate alınmayacaktır.",
+          "<br>",
+          "<br>",
+          "Game X Arena Kuralları",
+          "<hr>",
+          "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+          "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+          "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+          "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir) .",
+          "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+          "PSN Kullanıcı Adı: Maç sadece yukarıda listelenen PSN Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+          "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.",
+          "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+          "1. Yanlış Skor Bildirimi = 5 Euro /TL",
+          "2. Yanlış Skor Bildirimi = 25 Euro /TL",
+          "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+          "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "PUBG ana ekranında, ana bilgisayar oyun modunu Duo&#39;ya ayarlar.",
+          "Ana oyuncu rakibini Arkadaş Listesine ekler ve onu oyuna davet eder.",
+          "Konuk katıldıktan sonra ana bilgisayar oyunu başlatır ve oyun başlar.",
+          "Oyunun sonunda en çok öldüren oyuncu kazanır. ",
+          "Ölünce skorunun bir resmini çekip rakibinize gönderin ve maç sohbetinde yayınlayın. Bu bir şarttır. Bunun yapılmaması, oyununuzun kaybedilmesine yol açacaktır.",
+          "OYUN KURALLARI",
+          "Siz ve rakibiniz bir Duo takım olarak aynı oyuna katılacak ve en çok kişiyi öldürmek için yarışacaksınız. Oyunun sonunda en çok öldüren oyuncu kazanır.",
+          "Kanıt: Rakibinizle birbirinizin öldürme sayılarınızı göremediğinizden, her oyun için öldürmelerinizin kanıtını almalısınız. En azından, öldüğünüzde çıkan ekranda öldürme sayınızın ekran resmini almanız gerekir. Bu resmi, maç sohbetinde bir link göndererek rakibinizle paylaşmalısınız. (Gyazo, imgur, vb. araçları kullanabilirsiniz.)",
+          "Yerdeyken Öldürmek: Düştüğünüz sırada öldürdüğünüz herhangi bir öldürme, skorunuza dahildir sayılır. Ancak ölümünüzden sonra öldürmüş olursanız, bu skorunuza eklenmez.",
+          "Berabere: Eğer siz ve rakibiniz oyunu aynı miktarda öldürmeyle bitirirseniz, bir oyuncu diğerinden daha fazla öldürmeyle bitirene kadar maçı tekrar oynayın.",
+          "Tekrarlar: Replays aktifken oynamalısınız. Bir itiraz durumunda, itirazla alakalı kısmın tekrarı veya tüm oyununuzun videosu istenir. Eğer bunu yapamazsanız, itirazınız değerlendirmeye alınmaz.",
+          "Host: İlgili oyuncular tarafından aksi kararlaştırılmadıkça, handsoff bu maçın sunucusu olacaktir",
+          "Rakibinizle uğraşmak, haksızlık yapmak: Siz ve maçtaki rakibiniz birlikte çalışabilirsiniz. Bununla birlikte, oyun sırasında rakibinizi aktif olarak engelleyemezsiniz. Bu, takım içi öldürmeyi, rakibinizin hareket etmesini kasıtlı olarak engellemeyi, el bombalarıyla vurmayı vb. İçerir.",
+          "Araçlar ile ilgili olarak: Rakibinizin aracına atlayabilirsiniz, ancak araçtayken başınıza gelebilecek herhangi bir şeyden rakibiniz sorumlu tutulmaz. Rakibiniz uçurumdan atlarsa veya onun arabadaki hatasıyla ölürseniz, bu hile veya haksızlık olarak kabul edilmez. Rakibiniz bunun için oyunu kaybetmez.",
+          "Herhangi bir kural ihlalinin kanıtı, oyunun kaybedilmesine yol açacaktır.",
+          "Kill-Stealing : Rakibin öldürmek üzere olduğu birini öldürmek, kurallara aykırı değildir.",
+          "Bağlantı Kesilmesi: Oyun öncesi ısınma sırasında bir oyuncunun bağlantısı kesilirse, oyun tekrar oynanır. Oyun yere indiğinizde değil, uçakta olduğunuzda başlayacak kabul edilir. Oyun sırasında bağlantınız kesilirse, ölmüş sayılırsınız. Puanınız, bağlantınız kesildiğinde sahip olduğunuz öldürme sayısına eşittir. Rakibiniz, siz oyundan ayrıldıktan sonra bile oynamaya devam edebilir.",
+          "GameXArena yöneticileri, yukarıdakilere ek olarak adil ve hakkaniyetli bir mücadele için kural ekleme, kuralları değiştirme ve yorumlama hakkını saklı tutar.",
+          "<br>",
+          "<br>",
+          "Game X Arena Kuralları",
+          "<hr>",
+          "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+          "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+          "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+          "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir) .",
+          "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+          "PSN Kullanıcı Adı: Maç sadece yukarıda listelenen PSN Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+          "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.",
+          "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+          "1. Yanlış Skor Bildirimi = 5 Euro /TL",
+          "2. Yanlış Skor Bildirimi = 25 Euro /TL",
+          "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+          "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Rakibinizi PSN'ini kullanarak Playstation Network'te  yada XBOX `da bir arkadaş olarak ekleyin.",
+          "FIFA'da Online sekmesine gidin, ardından Online Arkadaşlıklar modunu açın.",
+          "Yeni bir sezon başlatın ya da rakibinizle mevcut sezonu açın.",
+          "Eşleşme kuallarını ve ayarlarını kontrol edip onaylayın.",
+          "Maçı başlatın.",
+          "Lag  / Ayarlar / Takımlar: 1 dakikalık oyun süresinden sonra, lag, oyun öncesi ayarları veya yasaklı takımlarla ilgili şikayetler dikkate alınmayacaktır. İstisna yok. (Not: WiFi yerine bir LAN kablosu kullanırsanız bağlantı çok daha iyidir.)",
+          "Bağlantı kopuklukları: Bir bağlantının kesilmesi durumunda, siz ve rakibiniz maçın kalan kısmını başka bir maçta tamamlamalısınızdır, skoru da kopmuş olan oyundakiyle aynı tutmalısınız. Örneğin, bağlantı kesilmesi 30. dakikada gerçekleşmişse, yeni oyun 60'a kadar oynanmalıdır. Bir itiraz durumunda tüm oyun görüntülerinin video kaydını yapmanızı öneririz.",
+          "Eğer kopma sonrası 15 dakika içinde maçı devam ettiremezseniz, Game X Arena takdir hakkını kullanarak maçta karar verebilir. Eğer kaybeden tarafsanız ve bağlantınız kopmuşsa, mağlup sayılırsınız. Kazanan taraf olduğunuz takdirde, maç iptal edilebilir veya şartlara bağlı olarak mağlup sayılabilirsiniz. Kaybeden tarafın oyuna bağlanmaya çalışması bir kıstastır. Kaybeden tarafsanız ve 15 dakika içinde tekrar oynamaya teşebbüs etmediyseniz, maçı kaybedersiniz.",
+          "Sadece Online Squads: Maçlar sadece 'Online Squads' ile oynanmalıdır. Özel Ekipleri veya düzenlenmiş oyuncuları kullanmaya yönelik herhangi bir girişim varsa, otomatik olarak maçı kaybedersiniz ve mağlup sayılırsınız.",
+          "Özel Oluşum Yok: İlgili Oyuncular tarafından üzerinde anlaşılmadıkça Özel Formasyonların kullanımına izin verilmez. Bir ihtilaf durumunda, göz önünde bulundurulması için VİDEO KANIT OLMALIDIR ve karar, Game X Arena’nın takdirine bağlıdır.",
+          "Beraberlik: Eğer maç berabere biterse, oyuncular ikinci bir mac  oynanmalıdır. İkinci mac sırasında gol olmazsa, oyuncular karşılıklı anlaşarak penaltılara devam etmek, tekrar maç yapmak veyahut maçın iptal olmasında mutabık kalmalıdırlar.",
+          "(Yasaklandı ise) Efsane Savunma: Bu maçta Efsane Savunmanın kullanılmasına izin verilmez. Bir ihtilaf durumunda, göz önünde bulundurulması için VİDEO KANITLAMASI OLMALIDIR ve karar Game x Arena’nın takdirine bağlıdır.",
+          "For a complete breakdown of all the rules, please visit our Rules & Scoring page. Play on!",
+          "<br>",
+          "<br>",
+          "Game X Arena Kuralları",
+          "<hr>",
+          "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+          "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+          "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+          "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir) .",
+          "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+          "PSN Kullanıcı Adı: Maç sadece yukarıda listelenen PSN Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+          "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.",
+          "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+          "1. Yanlış Skor Bildirimi = 5 Euro /TL",
+          "2. Yanlış Skor Bildirimi = 25 Euro /TL",
+          "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+          "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Rakibinizi PSN'lerini kullanarak Playstation Network&#39;te bir arkadaş olarak ekleyin.",
+          "Multiplayer modunu seçin. ",
+          "Custom Game’i seçin.",
+          "Rakibinizi arkadaşlarınızın arasından oyuna davet etmek için Üçgen tuşuna basın. ",
+          "Haritayı ve ayarları seçin.",
+          "Maçı başlatın.",
+          "Oyun Ayarları: Aksi belirtilmedikçe ayarlar aşağıdaki gibi olmalıdır:",
+          "Siz ve rakibiniz halka açık bir maça katılacak ve aynı takımda oynayacaksınız. Kimse maçı diğer oyuncudan daha çok ölümle bitirirse kazanır.",
+          "Kanıt: Her iki oyuncunun ölümü ile son skoru gösteren 'After Action Report' (Son Eylem Raporu) ekran görüntüsüne ihtiyacınız olacak. Ancak video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuza kaydetmek çok kolay.",
+          "Yerdeyken öldürmeler: Yerdeyken gerçekleştirilen tüm ölümler, skorunuza dahildir. Öldükten sonra öldürülen ölümler (örneğin mayınla öldürmeler), skorunuza eklenmez.",
+          "Beraberlik: Eğer siz ve rakibiniz oyun sonunda toplamda aynı sayıda kişi öldürürseniz, en fazla hasar veren oyuncu kazanmış sayılır.",
+          "Gecikme / Ayarlar: Helikoptere girdikten sonra gecikme veya oyun öncesi ayarlarla ilgili şikayetler istisnasız olarak asla dikkate alınmayacaktır.",
+          "Friendly Fire / Rakip aleyhine haksızlık yapmak: Takım arkadaşına ateş etmeye (friendly fire) izin verilmez. Game X Arena yöneticileri, Friendly fire ve diğer tüm adil olmayan davranışları değerlendirme yetkisini saklı tutar.",
+          "Bağlantı Kesilmesi: Oyun öncesi ısınma sırasında bir oyuncunun bağlantısı kesilirse, oyun tekrar oynanmalıdır. Oyun sırasında bağlantınız koparsa, ölmüşsünüz gibi muamele edilir. Puanınız, bağlantınız kesildiğinde sahip olduğunuz öldürme sayısına eşit kabul edilir. Siz ayrıldıktan sonra bile rakibiniz oynamaya devam edebilir.",
+          "Kill-Stealing (KS Atmak): Kill-Stealing (rakibin öldürmek için mücadele ettiği ve muhtemelen öldürmek üzere olduğu kişiyi öldürmek) serbesttir ve kurallara aykırı değildir.",
+          "<br>",
+          "<br>",
+          "<h3> Game X Arena Kuralları </h3>",
+          "<hr>",
+          "Konsolunuzda bu eşleşme sayfasında belirtilen kurallara uymayan bir davetiye alırsanız, daveti kabul etmeyin ve OYNAMAYIN. Eğer maçı oynar, kaybeder ve itiraz ederseniz, Game X Arena yöneticileri tarafından itirazınız değerlendirmeye alınmaz. Game X Arena, adalet ve hakkaniyetli bir oyun temelinde kurulmuş bir organizasyondur. Herhangi bir karar vermeden önce, kesinlikle kararlar objektif bir şekilde gözden geçirilir ve en adil olduğunu düşündüğümüz şekliyle yayınlanır.",
+          "Tüm maç sonuçlarını, kopuklukları, kural ihlallerini vb. kaydetmenizi şiddetle tavsiye ederiz.",
+          "Bir oyuncu maçı kaybederken veya berabereyken bir kural ihlali yaparsa ve o sırada rakibi gerekli delilleri kaydedip maçtan ayrılırsa, kural ihlalini gerçekleştiren oyuncu kaybetmiş sayılır.",
+          "Bir oyuncu kazanırken kural ihlali yaparsa ve rakip, kural ihlaline dair delilleri kaydedip maçtan ayrılırsa, maç iptal edilir ve hile yapmayan oyuncuya giriş ücretleri iade edilir(2 X komisyon hile yapan oyuncudan kesilir) .",
+          "Kanıt: Video kanıtı, bize sunabileceğiniz en iyi kanıttır. Konsolunuzda kaydetmek çok kolay.",
+          "PSN Kullanıcı Adı: Maç sadece yukarıda listelenen PSN Kullanıcı Adları arasında oynanırsa geçerlidir. Eğer başka bir kullanıcı adı ile tüm maçı oynamayı kabul edip maçtan sonra itiraz ederseniz, itirazınız dikkate alınmayacaktır.",
+          "Skor Onayı: Bir oyuncu skor bildirildiğinde, diğer oyuncunun bu skoru onaylamak veya skora itiraz etmek için 30 dakikası vardır.",
+          "Uyarı: Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+          "1. Yanlış Skor Bildirimi = 5 Euro /TL",
+          "2. Yanlış Skor Bildirimi = 25 Euro /TL",
+          "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+          "Birden fazla oyun gerektiren tüm maçlarda, sıradaki maçın, önceki maçın bitiminden maksimum 15 dakika sonra oynanmaya hazır olması gerekmektedir. Bunu yapmamak, diskalifiye olma sebebidir."
+        ]
+      }
+    },
+    "JoinMatchFor": "Maça katıl",
+    "WaitingAcceptance": "kabul edilmesi bekleniyor.",
+    "Accept": "Kabul et",
+    "Deny": "Reddet",
+    "HasJoined": "Maça katıldı.",
+    "EnterScore": "Skor giriniz",
+    "LeaveMatch": "Maçtan ayrıl",
+    "Step": "Adım",
+    "AddedOpponent": "Rakibi ekledim",
+    "OpponentJoined": "Rakip katıldı.",
+    "Draw": "Bir beraberlik var - Lütfen bir oyuncunun bu maçı kazandığından emin olun!"
+  },
+  "CreateMatch": {
+    "title": "Maç Oluştur",
+    "CustomAmount": "Özel Bahis Miktarı",
+    "Crossplay": {
+      "Console": "Crossplay (PS4/XB1 Only)",
+      "All": "Crossplay (PS4/XB1/PC)"
+    },
+    "ChooseConsole": "Konsol Seçiniz",
+    "ChooseGame": "Oyun Seçiniz",
+    "YourWager": "Bahis Miktarı",
+    "GameRules": "Oyun Kuralları",
+    "WagerLimit": "1€ miktarından az maç oluşturulamaz.",
+    "NoPlatformSelect": "Platform seçmeden ilerleyemezsiniz.",
+    "NoGameSelect": "Oyun seçmeden ilerleyemezsiniz.",
+    "NoWager": "Bahis miktarı seçmeden ilerleyemezsiniz."
+  },
+  "Notifications": {
+    "MatchCreated": "Maç oluşturuldu.",
+    "AddedOpponent": "Rakibiniz sizi ekledi.",
+    "JoinedOpponent": "Rakibiniz eklediğinizi onayladı",
+    "OpponentJoined": "Rakibiniz oyuna katıldı ve sizi bekliyor.",
+    "OpponentLeaved": "Rakibiniz oyundan ayrıldı.",
+    "JoinAccepted": "Oyuna katılma isteğiniz kabul edildi.",
+    "JoinDenied": "Oyuna katılma isteğiniz reddedildi.",
+    "ScoreEntered": "Rakibiniz maç skorunu girdi, lütfen 15 dakika içinde skoru girin.",
+    "ScoreApproved": "Rakibiniz skoru doğruladı.",
+    "MatchDispute": "Skor bildiriminde anlaşmazlık var. Lütfen ekran görüntüsü iletiniz."
+  },
+  "Services": {
+    "Tournaments": {
+      "Match Length": "Maç Sayısı",
+      "Game Type": "Oyun Tipi",
+      "Game Map": "Oyun Haritası",
+      "Game Perspective": "Perspektif",
+      "Star Level": "Yıldız Seviyesi",
+      "Legacy Defending": "Taktiksel Savunma",
+      "Half Length": "Devre Uzunluğu",
+      "Team Type": "Takım Tipi",
+      "Ruleset": "Kural Seti",
+      "Team Size": "Takım Oyuncu Sayısı"
+    }
+  },
+  "Auth": {
+    "Login": "GİRİŞ YAP",
+    "Register": "KAYIT OL",
+    "ForgotPassword": "ŞİFREMİ UNUTTUM",
+    "EnterMail": "Şifrenizi sıfırlamak için mail adresinizi giriniz.",
+    "Email": "E-posta",
+    "Password": "Şifre",
+    "FormReach": "Formunuz bize ulaştı. Teşekkür ederiz."
+  },
+  "TransactionHistory": {
+    "AccountBalance": "Hesap Bakiyesi",
+    "Balance": "Bakiye",
+    "BonusBalance": "Bonus Bakiyesi",
+    "Type": "Tür",
+    "Status": "Durum",
+    "Amount": "Miktar",
+    "Description": "Metod/Açıklama",
+    "Date": "Tarih/Saat",
+    "PaymentType": "Ödeme Tipi",
+    "Total": "Toplam"
+  },
+  "Disputes": {
+    "1": "Uyuşmazlık Eşleşmesi",
+    "2": "Bu maç anlaşmazlık sürecine girmiştir, çünkü her iki oyuncu da çelişkili sonuçlar sunmuştur. Lütfen kazandığınızı gösteren aşağıdaki kanıtları gönderin; kazancı doğru oyuncuya vereceğiz. Anlaşmazlıklar 24 saat içinde çözülecek, lütfen sabırlı olun.",
+    "3": "Uyarı:",
+    "4": "Sahte veya yanlış sonuçların verilmesi, derhal finansal cezai yaptırımlara yol açacaktır.",
+    "5": "1. Yanlış Skor Bildirimi = 5 Euro",
+    "6": "2. Yanlış Skor Bildirimi = 25 Euro",
+    "7": "3. Yanlış Skor Bildirimi = Bakiyenizin tamamına el konulması + hesabınıza ban.",
+    "8": "Lütfen aşağıdaki butona tıklayarak maçınızın fotoğraflarını / ekran görüntülerini yükleyin. Bizi kimin kazandığını, puanın ne olduğunu ve oyuncu adlarınızın görünür olduğundan emin olun."
+  }
+}

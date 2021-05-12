@@ -1,0 +1,607 @@
+@font-face {
+  font-family: 'Space-Comics';
+  src: url('../fonts/SpaceComics.woff2') format('woff2'),
+  url('../fonts/SpaceComics.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: #DCDCDC;
+}
+
+
+#sideNav{
+  height: 100vh;
+}
+.bm-menu{
+  z-index: 9999 !important;
+  padding-top: 0!important;
+}
+
+.bm-overlay{
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.header a{
+  color: #ffffff !important;
+}
+
+
+.about-us-logo{
+  width: 300px;
+}
+
+.v-input--selection-controls .v-input__control{
+  width: 100% !important;
+}
+
+.chatroom-message .v-list__tile{
+  height: auto !important;
+}
+
+.chatroom-message .v-list__tile--avatar{
+  height: auto!important;
+}
+
+.custom-game-stepper .theme--light.v-stepper .v-stepper__step__step, .theme--light.v-stepper .v-stepper__step__step .v-icon, .custom-game-stepper .primary{
+  background-color: #17270f!important;
+  border-color: #17270f!important;
+}
+
+.create-custom-match-button{
+  background-color: #17270f!important;
+  color: #ffffff!important;
+}
+
+.slider h1 {
+  margin: 0 !important;
+  font-size: 15px !important;
+  font-family: 'Space-Comics';
+  line-height: 2;
+  color: #17270f !important;
+  margin-bottom: 50px !important;
+}
+
+.welcome-logo{
+  width: 250px;
+  margin-bottom: 0;
+}
+
+.slider .logo {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+.game-rules-select .v-list--three-line .v-list__tile{
+  height: 48px !important;
+}
+
+.slider .logo .v-image__image--cover {
+  background-size: auto !important;
+}
+
+.w-first-right {
+  -webkit-clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+  height: 85vh;
+}
+
+.w-first-left {
+  -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+  height: 85vh;
+}
+
+.w-first-right .v-responsive, .w-first-right .v-window {
+  height: 90vh !important;
+}
+
+.w-first-left h3, .w-first-left p {
+  font-size: 32px !important;
+  color: #17270f !important;
+  text-align: left;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.v-menu__content {
+  /*position: relative !important;*/
+  /*left: 0 !important;*/
+  /*top: 0 !important;*/
+}
+
+.theme--dark.v-tabs__bar{
+  background-color: #17270f !important;
+}
+
+.games {
+  background: #17270f;
+  padding-left: 7%;
+}
+
+.games .v-image {
+  width: 150px !important;
+}
+
+.w-second-right {
+  -webkit-clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+  height: 70vh;
+}
+
+.w-second-left {
+  -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+  height: 70vh;
+}
+
+.w-second-left .v-list--two-line .v-list__tile {
+  height: 200px;
+}
+
+.w-second-right .v-responsive, .w-second-right .v-window {
+  height: 70vh !important;
+}
+
+.btn-register, .btn-login {
+  background-color: #17270f !important;
+  border: none !important;
+  margin-top: 40px;
+  color: #ffffff !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-register:hover, .btn-login:hover {
+  background-color: #17270f;
+}
+
+.theme--light.v-input:not(.v-input--is-disabled) input, .theme--light.v-input:not(.v-input--is-disabled) textarea,
+.theme--light.v-card {
+  color: #17270f !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.theme--light.v-text-field .v-input__slot:before {
+  border-color: #17270f !important;
+}
+
+#counter-css .vuejs-countdown {
+  padding: 0;
+  margin: 0;
+}
+
+#counter-css .vuejs-countdown li {
+  display: inline-block;
+  margin: 0 0 !important;
+  text-align: center;
+  position: relative;
+  background: #37C098 !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+}
+
+#counter-css .vuejs-countdown li p {
+  color: #ffffff !important;
+  margin-bottom: 0 !important;
+  background: #23826B !important;
+  text-align: center !important;
+  padding: 5px;
+  min-width: 55px !important;
+}
+
+#counter-css .vuejs-countdown li:after {
+  content: "" !important;
+  position: absolute;
+  top: 0;
+  right: -13px;
+  font-size: 32px;
+}
+
+#counter-css .vuejs-countdown li:first-of-type {
+  margin-left: 0;
+}
+
+#counter-css .vuejs-countdown li:last-of-type {
+  margin-right: 0;
+}
+
+#counter-css .vuejs-countdown li:last-of-type:after {
+  content: "";
+}
+
+#counter-css .vuejs-countdown .digit {
+  font-size: 32px !important;
+  font-weight: 600 !important;;
+  line-height: 1.4 !important;;
+  margin-bottom: 0 !important;;
+}
+
+#counter-css .vuejs-countdown .text {
+  text-transform: uppercase !important;;
+  margin-bottom: 0 !important;;
+  font-size: 10px !important;;
+}
+
+#welcomePage .slider {
+  padding-right: 0 !important;
+  background: #17270f;
+  overflow-x: hidden;
+}
+
+#welcomePage .countdown {
+  background: #ffffff !important;
+}
+
+#welcomePage .slider .col-md-3 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#welcomePage .slider h1 {
+  margin: 0 !important;
+  font-size: 15px !important;
+  font-family: 'Space-Comics';
+  line-height: 2;
+  color: #17270f !important;
+  margin-bottom: 0 !important;
+}
+
+#welcomePage .slider h2 {
+  margin: 0 !important;
+  font-size: 30px !important;
+  line-height: 2;
+  color: #17270f !important;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#welcomePage .slider p {
+  margin: 0 !important;
+  font-size: 18px !important;
+  line-height: 2;
+  color: #17270f !important;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 50px !important;
+}
+
+#welcomePage .slider h3 {
+  margin: 0 !important;
+  font-size: 32px !important;
+  line-height: 2;
+  color: #17270f !important;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#welcomePage .slider h4 {
+  margin: 0 !important;
+  font-size: 18px !important;
+  line-height: 2;
+  color: #17270f !important;
+  text-align: left;
+  margin-bottom: 40px !important;
+}
+
+.games {
+  background: #17270f;
+  position: relative;
+  bottom: 0;
+  height: 10vh;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-register, .btn-login {
+  background-color: #17270f !important;
+  border: none !important;
+  margin-top: 40px;
+  color: #ffffff !important;
+}
+
+.btn-register:hover, .btn-login:hover {
+  background-color: #17270f;
+}
+
+.how-it-works .coins {
+  text-align: center;
+}
+
+.how-it-works .coins .row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.how-it-works h1 {
+  padding-top: 20px;
+}
+
+.how-it-works p {
+  font-size: 20px;
+  padding-top: 10%;
+  font-weight: 700;
+  text-align: left;
+}
+
+.language-selection {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 5px;
+  color: #17270f;
+  padding: 10px 40px;
+  z-index: 9999;
+  background-color: #fefefed9;
+}
+
+.gamexarena-green{
+  background-color: #17270f !important;
+}
+
+.menu-items{
+  padding-top: 23px !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700;
+}
+
+.menu-items .v-btn__content{
+  font-weight: 700;
+  text-transform: none;
+  color: #ffffff;
+}
+
+.header-profile-menu{
+  padding: 15px;
+  border-bottom: 5px solid #d5d5d5;
+}
+
+.header-profile-menu-icons{
+  min-width: 30px;
+}
+
+.header-profile-menu-items{
+  text-decoration: none;
+  color: #17270f;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700;
+}
+
+.theme--light.v-toolbar{
+  background-color: #17270f !important;
+}
+
+.menu-items .theme--dark.v-btn:not(.v-btn--icon):not(.v-btn--flat){
+  background-color: transparent;
+}
+
+.console-type{
+  background-color: #17270f !important;
+  color: #ffffff;
+}
+
+.xbox-one{
+  background-color: #F0FDEF;
+  color: #FFF;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.playstation-4{
+  background-color: #EEF4FF;
+  color: #FFF;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pc{
+  background-color: #F0E3D1;
+  color: #FFF;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.console-type .theme--light.v-stepper .v-stepper__label{
+  color: #ffffff !important;
+}
+
+.console-type .theme--light.v-label{
+  color: #FFFFFF;
+}
+
+.console-type .theme--light.v-icon , .console-type h1{
+  color: #FFFFFF;
+}
+
+.next-button-membership{
+  background-color: #2096f3 !important;
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.back-button-membership{
+  background-color: #ffc107!important;
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.finish-button-membership{
+  background-color: #17270f!important;
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.v-menu__activator{
+  flex-direction: row-reverse;
+}
+
+.welcome-mobile-menu{
+  display: none;
+}
+
+.bm-burger-button{
+  top: 14px !important;
+  right: 14px !important;
+}
+
+.mobile-menu-items{
+  color: #ffffff !important;
+}
+
+.bm-burger-bars{
+  background-color: #ffffff !important;
+}
+
+.cross-style{
+  right: 10px;
+  top: 20px;
+}
+
+.bm-cross{
+  height: 30px !important;
+}
+
+.bg-transparent{
+  background-color: transparent !important;
+}
+
+.bg-light-green{
+  height: 80px;
+  background-color: #22b14c;
+}
+
+
+@media (max-width: 768px) {
+
+  .mobile-none-padding{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .m-ml-0{
+    margin-left: 0 !important;
+  }
+
+  .sm-xs-mb-10{
+    margin-bottom: 10px !important;
+  }
+
+  .menu-items{
+    display: none;
+  }
+
+  .welcome-mobile-menu{
+    display: block;
+  }
+
+  .welcome-desktop-menu{
+    display: none;
+  }
+
+  .welcome-logo{
+    width: 170px;
+  }
+
+  .w-first-left h3, .w-first-left p{
+    margin-bottom: 10px !important;
+  }
+
+  .logo-div{
+    margin-bottom: 0!important;
+  }
+
+  .games .v-image {
+    width: 50px !important;
+  }
+
+  .games {
+    padding-left: 3% !important;
+  }
+
+  .w-second-left p {
+    margin-left: 0 !important;
+  }
+
+  .v-list--two-line .v-list__tile {
+    height: 130px !important;
+  }
+
+  .v-list__tile img {
+    width: 100px !important;
+  }
+
+}
+
+@media (max-width: 1800px) {
+  .slider .logo {
+    margin-bottom: 0;
+  }
+
+  .slider h1 {
+    margin-bottom: 25px !important;
+    font-size: 11px !important;
+  }
+
+  .w-first-left h3, .w-first-left p {
+    font-size: 22px !important;
+  }
+
+  #counter-css .vuejs-countdown li p {
+    min-width: 45px !important;
+  }
+
+  .v-subheader {
+    font-size: 50px !important;
+  }
+
+  .v-list__tile img {
+    width: 125px;
+  }
+
+  .w-second-left p {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1600px) {
+  #counter-css .vuejs-countdown li {
+    padding: 12px !important;
+  }
+
+  .btn-register, .btn-login {
+    margin-top: 0;
+  }
+
+  .w-second-left .v-list--two-line .v-list__tile{
+    height: 150px;
+  }
+
+  .w-second-right {
+    height: 90vh;
+  }
+
+  .w-second-left {
+    height: 90vh;
+  }
+
+  .w-second-right .v-responsive, .w-second-right .v-window {
+    height: 90vh !important;
+  }
+
+  .w-first-left h3, .w-first-left p{
+    font-size: 20px !important;
+  }
+
+}

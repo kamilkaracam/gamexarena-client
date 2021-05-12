@@ -1,0 +1,24 @@
+image: node:latest
+
+pipelines:
+  default:
+    - step:
+        script:
+          - apt-get update -y
+          - apt-get install -y rsync
+  branches:
+    develop:
+      - step:
+          name: Build for development
+          deployment: test
+          caches:
+            - node
+          script:
+            - echo " ----- Start building"
+            - npm install
+            - npm run dev
+      - step:
+          name: Deploy
+          script:
+            - echo " ----- Hello world"
+            - rsync --version

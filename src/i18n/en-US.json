@@ -1,0 +1,650 @@
+{
+  "iso-code": "en",
+  "validations": {
+    "required": "{label} is required",
+    "email": "Must be valid e-mail",
+    "minLength": "{label} must have at least {min} characters long",
+    "maxLength": "{label} must be up to {max} characters long",
+    "sameAs": "{label} must same password",
+    "alphaNum": "{label} accepts only alphanumerics."
+  },
+  "inputs": {
+    "email": "E-mail",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "password": "Password",
+    "username": "Username",
+    "birthday": "Birth day",
+    "birthmonth": "Birth month",
+    "birthyear": "Birth year",
+    "tournament": "Tournament",
+    "new_password": "New Password",
+    "repeat_password": "Repeat Password",
+    "state": "State/Province",
+    "postal_code": "ZIP/Postal Code",
+    "city": "City/Town",
+    "country_id": "Country",
+    "gender": "Gender",
+    "timezone_id": "Time Zone",
+    "platform_id": "Platform",
+    "game_id": "Game",
+    "game_type_id": "Game Type",
+    "game_rule_id": "Game Rule",
+    "wager": "Wager"
+  },
+  "buttons": {
+    "SaveChanges": "Save Changes",
+    "ChangePassword": "Change Password",
+    "Save": "Save",
+    "Continue": "Continue",
+    "AddMoney": "Add Money",
+    "Withdraw": "Withdraw",
+    "Close": "Close"
+  },
+  "Withdraw": {
+    "Payment": "Wires will be credited to your account within 1-5 working days of your withdrawal request.It may charged a handling fee for up to 0,73 cents"
+  },
+  "Alert": {
+    "ChangePassword": "Your password has been successfully changed",
+    "PersonalDetails": "Your personal information has been updated.",
+    "CreateMatch": {
+      "PaymentRequired": "Payment required.",
+      "SelectPlatform":"You cannot proceed without selecting a platform.",
+      "SelectGame":"You cannot proceed without selecting a game.",
+      "SelectWager":"You cannot proceed without selecting a stake."
+    },
+    "Payments": {
+      "BalanceAdded": "Hesabınıza {amount} yüklendi"
+    }
+  },
+  "Welcome": "WELCOME TO GAMEARENA",
+  "VideoHeaders": {
+    "HowDoYouPlay": "HOW DO YOU PLAY",
+    "HowWeWork": "HOW WE WORK"
+  },
+  "Email":{
+    "Verify":"VERIFIY"
+  },
+  "SkillToCash": "Skill to Cash",
+  "SkillToCashDesc": "Win Money Playing Video Games Againsts Anyone in the World On PC, XBOX OR PlayStation",
+  "CreateAccount": "Create Account",
+  "loginAccount": "Login",
+  "UntilRelease": "Until release",
+  "EarlyAccessMessage": "Get Your Early Access to Free Tournaments",
+  "Days": "Days",
+  "Hours": "Hours",
+  "Minutes": "Minutes",
+  "Seconds": "Seconds",
+  "HowItWorks": "How It Works?",
+  "HowItWorksStep1": "Find an opponent",
+  "HowItWorksStep2": "Play your game online on your arena. (Xbox, PC or Playstation)",
+  "HowItWorksStep3": "Beat your opponent and get your cash",
+  "tournamentNotificationImage": "/static/assets/img/notification/en-big.png",
+  "OpeningModalImage": {
+    "base": "{BASE_URL}/static/assets/img/notification/en-big.png",
+    "sizes": "{BASE_URL}/static/assets/img/notification/en-big.png 1200w, {BASE_URL}/static/assets/img/notification/en-small.png 700w"
+  },
+  "ForgotPassword": "Forgot Password?",
+  "AboutUsHeader": "What is GAME X ARENA",
+  "AboutUsText": "Game X Arena is a videogame platform for the players ,who no longer want to play for virtual prizes rather for real prizes .We made Game X Arena to give all gamers the opportunity to win money by playing their favorite video games.Players come to www.gamexarena.com to compete in tournaments for free and for cash and awesome prizes",
+  "WhatIsGamexarenaQ": "What is GAME X ARENA ?",
+  "WhatIsGamexarenaA": "Game X Arena is a videogame platform for the players ,who no longer want to play for virtual prizes rather for real prizes .We made Game X Arena to give all gamers the opportunity to win money by playing their favorite video games.Players come to www.gamexarena.com to compete in tournaments for free and for cash and awesome prizes.",
+  "HowDoISignUpQ": "How do I sing up ?",
+  "HowDoISignUpA": "You can sing up for Game X Arena by  clicking the CREATE ACCOUNT on our homepage.",
+  "DoesItCostQ": "Does it cost anything to sing up on Game X Arena ?",
+  "DoesItCostA": "Of course not! You can sign up for free.",
+  "IsLegalQ": "Is Game X Arena legal?",
+  "IsLegalA": "Game X Arena is legal, given that the video game competitions we facilitate are games of skill.There are no entry fees and the reward is given by sponsor.That makes all Game X Platform legal.",
+  "IsSecureQ": "Is Game X Arena secure?",
+  "IsSecureA": "Game X Arena places the highest concern on making sure your sensitive information is protected. Our databases and servers are highly secured with robust encryption and we never store your credit card information. All credit card transactions are done securely through Paypal or Skrill.",
+  "HowDoesWorkQ": "How does Game X Arena work?",
+  "HowDoesWorkA": "<p>Game X Arena  is an independent tournament and match organization for gamers.</p> <p>To get started, you have  to SIGN UP. After you’re signed up, check out our OPEN MATCHES . This page allows you to join an existing open match, create your own match or use the main lobby chat to organize a match with another member of the community. </p> <p>Or you can go to our Tournaments page ,This page allows you to join an a sponsored tournament .The prize of Tournaments will be given away to winner  according to sponsors by Game X Arena</p> <p>Once you’ve accepted a challenge or entered a tournament, the entry fee money from each player's account will be withdrawn and the combined prize pool will be held in our secure escrow account. Players can communicate through the match lobby chat or by private message as they set up their game and prepare to face off! </p> <p>After you’ve completed your game, you and your opponent(s) will report the outcome of the match. Once the score is verified, the winner’s account will automatically be credited with the winnings!</p>",
+  "WhatVideoGamesQ": "What video games does Game X Arena host competition for ?",
+  "WhatVideoGamesA": "<p>Game X Arena currently supports Fortnite, Madden, NBA 2K, FIFA, PUBG, MLB The Show, Rocket League, NHL, Call of Duty (WW2, Black Ops 4, Infinite Warfare, Modern Warfare Remastered, & Black Ops 3), UFC, and PES for head-to-head skill-based competitions, as well as tournaments.</p> <p>We plan to expand to other games soon. Stay tuned!</p>",
+  "TournamentsQ": "Game X Tournaments",
+  "TournamentsA": "<p>There are two types of tournaments you can join on the Tournament Page.</p> <ol><li>Tournaments that start at a specific time.</li><li>Tournaments that start when capacity is filled.</li></ol><p>Tournaments vary between paid entry, free and sponsored. You can leave a tournament before it starts and your money will be refunded instantly (if it is a paid entry.)</p><p>Once the tournament starts, you will be notified and the bracket will be randomly generated with your match being created. Matches typically have a window of 24 hours to be played, so you don’t need to be online when it starts, but make sure to check the details for each tournament as the window may vary.</p><p>Quick Play tournaments start at a specific time and have an 1-2 hour window to be played.</p>",
+  "HowCanIJoinQ": "How can I join an a Tournament?",
+  "HowCanIJoinA": "You have to go to tournament page.This page allows you to join an a tournament. Dont forget the read  entry conditions!",
+  "HowCanICreateQ": "How can I create a match?",
+  "HowCanICreateA": "To creat a match ,you have to click the Create a Match in Match page. Then you have to set the Game settings ,like Game ,Platform ,Prize etc. After you set the all settings ,your match ll be by us created.",
+  "HowDoIPlayQ": "How do I play a Match",
+  "HowDoIPlayA": "<p>The exact steps vary by game, but in general:</p><ol><li>Add your opponent as a friend on Xbox Live, PSN, or PC using their Gamertag or Username.</li> <li>Go to the game mode where you can play a friend online. For example, the Online Friendlies mode in FIFA.</li> <li>Send a game invite to your opponent.</li>  <li>Check and confirm the match rules and settings.</li>  <li>Start the match.</li>  </ol><p>Note: Be sure to take video/pictures/screenshots of the match final score in case of a dispute about the match result. </p>",
+  "WhatHappensDisconnectQ": "What happens if my opponent or I get disconnected during an online match ?",
+  "WhatHappensDisconnectA": "It is the responsibility of each player to ensure that their connection is suitable for playing online. If a player gets disconnected we recommend that they communicate with their opponent to figure out a way to finish the match — i.e. if the disconnection happened at half-time, the match should be completed after one half of the new game.",
+  "WhatAreDisputesQ": "What are disputes,and how do they get handled ?",
+  "WhatAreDisputesA": "<p>After completing your Head-to-Head match or Tournament competition, both teams will report the scoreline from the game. In the event that both players do not report the scoreline, a “dispute” is created.</p><p>We take our gaming very seriously at Game X Arena and disputes are no different.</p><p>Disputes generally come from two circumstances:</p><ol><li>Accidental - You won 3-1. But in your gamer’s glee, you mistakenly report 3-0. We understand this happens occasionally, but please take an extra moment next time.</li><li>Intentional - You lost 2-0. You report that you won 2-0. This is a very serious offense and can result in your account being banned from Game X Arena.</li></ol>",
+  "HowMatchFeeWorksQ": "How do the match fees works ?",
+  "HowMatchFeeWorksA": "Game X Arena takes 10% from each player's entry fee for Head-to-Head matches. This is included in the entry fee - not in addition to it.i.e. $10 entry fee = $1 fee from each player, $18 prize pool.",
+  "MonthlyChargesQ": "Are they any montly charges on my credit card ?",
+  "MonthlyChargesA": "There are no monthly charges to have a Game X Arena account.",
+  "HeadToHeadQ": "For how much money can I play in Head-to-Head match ?",
+  "HeadToHeadA": "For Head-to-Head competitions on Game X Arena, the minimum challenge amount is 2.50 Euro. The maximum challenge amount is 500.00 Euro.",
+  "RatingSystemQ": "What is Game X  Arena Raking System ?",
+  "RatingSystemA": "<p>Each player has a Game X Arena Rating , which is an indicator of how good a player is at a game. This is determined by an algorithm that takes into account things like the number of wins & losses a player has, and who they have played against.</p><p>For example, if you have a Rating of 60, and you beat a player with a Rating or 80, your Ratig will go up a lot more than if you beat a player who has a Rating of 50.</p><p>Ratings are only shown if a player has played 3 or more matches with an entry fee of at least $1.00.</p>",
+  "HowOldQ": "How old do I have to be to compete on Game X Arena?",
+  "HowOldA": "You must be 18 or older to compete on this website.",
+  "MoreThanAccountQ": "Can I have more than one account?",
+  "MoreThanAccountA": "No. You are only allowed to compete on Game X Arena under one account. Xbox Live Gamertag, Playstation Network Username account will only work on one Game X Arena account.",
+  "SupportHeader": "Support",
+  "SupportText": "Have a question? Need assistance with something on the site?It is likely your question may be answered on our Frequently Asked Questions page.If you don't find your answer there, feel free to reach out to us info@gamexarena.com and we will respond promptly.",
+  "UnderConstruction": "Our page is under construction.",
+  "EnterEmailAddress": "Enter your Email Address to reset your password.",
+  "PasswordResetted": "Your password has been reset.",
+  "HeaderNavigation": {
+    "AboutUs": "About Us",
+    "Tournaments": "Tournaments",
+    "Rules": "Rules",
+    "Faq": "F.A.Q",
+    "Profile": "Profile",
+    "Matches": "Matches",
+    "CreateChallange": "Create Challange",
+    "LeadersTable": "Leaders Table"
+  },
+  "FooterNavigation": {
+    "About": "ABOUT",
+    "Help": "HELP",
+    "AboutUs": "About Us",
+    "Rules": "Rules",
+    "Faq": "F.A.Q",
+    "PrivacyPolicy": "Privacy Policy",
+    "Support": "Support",
+    "TermsOfUse": "Terms of Use"
+  },
+  "ProfileNavigation": {
+    "GameSettings": "Game Settings",
+    "TransactionHistory": "Transaction History",
+    "GamerTags": "Gamer Tags",
+    "ChangePassword": "Change Password",
+    "PersonalDetails": "Personal Details"
+  },
+  "MeNavigations": {
+    "AddMoney": "Add Money",
+    "Withdraw": "Withdraw",
+    "CreateChallenge": "Create Challange",
+    "CreateMatch":"CREATE CHALLENGE",
+    "MyProfile": "My Profile",
+    "MyGames": "My Games",
+    "Games": "Games",
+    "Rules": "Rules",
+    "TransactionHistory": "Transaction History",
+    "FAQ": "F.A.Q",
+    "AccountSettings": "Account Settings",
+    "Logout": "Logout",
+    "EditProfile": "Edit Profile"
+  },
+  "Tournaments": {
+    "Platform": "Platform",
+    "Prize": "Prize",
+    "Place": "Place:",
+    "Date": "Date",
+    "JoinButton": "JOIN TOURNAMENT",
+    "CantJoin": "You cannot join more than a tournament.",
+    "Info": "Info",
+    "JoinerCount": "The number of participants",
+    "Join": "Join",
+    "title": "{0} Tournament",
+    "TournamentStart": "The tournament start at",
+    "Prizes": {
+      "title": "PRIZES",
+      "prize": "| {n}st {prize} {type} | {n}nd {prize} {type} | {n}rd {prize} {type} | {n}th {prize}",
+      "bonusBalance1": "{start}th & {end}th Place: {prize} Bonus Balance",
+      "bonusBalance2": "{start}th thru {end}th Place: {prize} Bonus Balance"
+    },
+    "TournamentDetails": {
+      "title": "TOURNAMENT DETAILS",
+      "StartTime": "Start Time",
+      "Game": "Game",
+      "MatchLength": "Match Length",
+      "GameType": "Game Type"
+    },
+    "HowToPlay": {
+      "title": "HOW TO PLAY",
+      "fortnite": {
+        "list1": [
+          "In the lobby of Fortnite Battle Royale, the first player (host) sets the game mode to Duo.",
+          "The host adds his opponent to the Epic Friends List and invites their opponents in the game.",
+          "After the invited player has come to the game, the Host starts the game.",
+          "After the first game, players change hosts and play again.",
+          "The player with the most kills at the end of both matches wins."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "In the main pubg page, the first player sets the game mode to duo mode.",
+          "The host adds the second player in his friends list.",
+          "After the second player comes to the game, the first player starts the game.",
+          "The player with the most kills at the end of both games wins",
+          "Take a picture of your score as you die and send it to your opponent in match chat. This is a requirement. Otherwise, you are considered a loser."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Add your opponent via the PSN as a friend on the Playstation Network.",
+          "In Fifa, go to Online Tab and open the friendly match mode.",
+          "Start a new season or open an existing season with your opponent.",
+          "Check ,confirm the game rules and settings",
+          "Start the game"
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Add your opponent via the PSN as a friend on the Playstation Network.",
+          "Select the multiplayer mode.",
+          "Select Custom Game.",
+          "Press Triangle to invite your opponent from your friends list.",
+          "Select the map and settings.",
+          "Start the game"
+        ]
+      }
+    },
+    "GameRules": {
+      "title": "GAME RULES",
+      "fortnite": {
+        "list1": [
+          "You and your opponent will join the same game as a Duo team and compete to score the most kills.The player with the most kills at the end of the game wins.",
+          "Kills While Downed: Any kills scored while you’re downed count towards your final score. Kills scored after you die do not count towards your final score (e.g. from traps, or someone that you knocked down bleeding out).",
+          "Tiebreaker: If you and your opponent finish the game with the same amount of kills, play the match again until one player finishes with more kills than the other.",
+          "Lag/Settings: After getting on the bus, any complaints on lag or pre-game settings will not be taken into consideration. No exceptions.",
+          "Interference & Obstruction: You and your opponent may work together to secure kills. Stealing your opponents kills is allowed and part of the competitive nature.",
+          "Here are the things not allowed:",
+          "Breaking or purposely weakening any structure that your opponent has built or non built structures or cover by any means that is actively being used by your opponent.",
+          "Causing your opponent to miss shots. Building in front of or around your opponent (intentionally preventing movement)",
+          "Common things that are allowed: Attracting other opponents by firing guns around your teammate (opponent). Boxing yourself in around a loot crate or chest.Following your teammate (opponent).",
+          "Shooting down your own structure and launch pad (if you built them).",
+          "If you lose the game and feel your opponent interfered with your game play in any of the above prohibited ways, please dispute the match by submitting a winning score on your end. After you do that, please explain in the dispute what happened and provide video evidence of it happening within the time allowed during the dispute window. ",
+          "Please note that the above list is not all-inclusive. Admins may use their discretion to assess interference for things above or things in addition to the above. While we make the best effort possible to maintain a fair and consistent experience, all interference calls are strictly at admin discretion. ",
+          "We must have clear proof to warrant a forfeit.",
+          "Kill Stealing: Kill-stealing is not against the rules.",
+          "Disconnections: If a player disconnects in the pre-game warm-up, the game must be replayed. If you disconnect during game play, it is treated like a death. Your score is equal to the number of kills you had when you disconnected. Your opponent can continue to play even after you have disconnected from the match."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "You and your opponent will join the same game as a Duo team and compete to score the most kills.The player with the most kills at the end of the game wins.",
+          "Proof: Because you cannot see your opponent's kills on the scoreboard, you must provide proof of your kills for every game. At a minimum, you are required to have a picture of your kills when you die. You must share that picture with your opponent by posting a link to it in the match chat. (It can be hosted on gyazo, imgur, etc.)",
+          "Kills While Downed: Any kills scored while you’re downed count towards your final score. Kills scored after your death do not count towards your final score.",
+          "Tiebreaker: If you and your opponent finish the game with the same amount of kills, play the match again until one player finishes with more kills than the other.",
+          "Host: Unless otherwise agreed upon by the players involved, smokemadtrees will be the host of this match.",
+          "Interference/Messing With Your Opponent: You and your opponent in the match may work together to secure kills. However, you cannot actively impede your opponent during the course of the game. This includes team killing, intentionally preventing your opponent from moving, hitting them with grenades, etc.",
+          "Regarding vehicles: you can jump into your opponent’s vehicle, but anything can happen once you’re in there without penalty to your opponent. If your opponent drives off of a cliff or into something that kills you, this is not considered interference. Your opponent will not lose the game for it.",
+          "Proof of any violation will result in that game being forfeited.",
+          "We must have clear proof to warrant a forfeit.",
+          "Kill Stealing: Kill-stealing is not against the rules.",
+          "Disconnections: If a player disconnects in the pre-game warm-up, the game must be replayed. The game is considered to begin once you’re in the plane, not when you hit the ground. If you disconnect during game play, it is treated like a death. Your score is equal to the number of kills you had when you disconnected. Your opponent can continue to play even after you have disconnected from the game."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Lag/Settings/Teams: After 1 minute of gameplay any complaints on lag, pre-game settings, or banned teams will not be taken into consideration. No exceptions. (Note: connection is much better if you use a LAN cable instead of WiFi.)",
+          "Disconnections: In the event of a disconnection, you and your opponent must finish the remaining time of the match, keeping the score the same as it was in the game that got disconnected. i.e. If the disconnection occurred in the 30th minute, the new game should be played until the 60th. We highly recommend recording video of all game footage in case of a dispute. ",
+          "If you can't continue the match within 15 minutes of disconnecting, Game X Arena may rule on the match using our discretion. If you were losing, you will be given the loss. If you were winning, the match may be canceled or you may be given the loss depending on the circumstances. It is up to the player who was losing to reach out and attempt to play the match again. If you were losing and no attempt is made to play again within 15 minutes, you will lose the match.",
+          "Online Squads Only: Matches must be played with 'Online Squads' only. If there is any attempt to use Custom Squads or edited players, you will automatically forfeit the match and get a loss.",
+          "No Custom Formations: Custom Formations are not allowed to be used, unless agreed upon by the players involved. In case of a dispute, you MUST HAVE VIDEO EVIDENCE for it to be considered and the decision is at the discretion of Game X Arena",
+          "Drawing/Tying a Match: If the match ends in a draw, a new game must be played under the Golden Goal rules. The game will end when a goal is scored. If there is no goal scored in the Golden Goal match, then each player will have the option to cancel or agree to continue.",
+          "Legacy Defending: Legacy Defending is not allowed to be used in this match. In case of a dispute, you MUST HAVE VIDEO EVIDENCE for it to be considered and the decision is at the discretion of Game X Arena.",
+          "For a complete breakdown of all the rules, please visit our Rules & Scoring page. Play on!"
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Game Settings: Unless otherwise specified, the following settings must be set to following:",
+          "You and your opponent will join a public match and play on the same team. Whoever ends the match with more kills than the other player wins.",
+          "Proof: You will need a screenshot of the After Action Report showing the final score with both players dead. But video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "Kills While Downed: Any kills scored while you’re downed count towards your final score. Kills scored after you die do not count towards your final score (e.g. from mines, or someone that you knocked down bleeding out).",
+          "Tiebreaker: If you and your opponent finish the game with the same amount of kills, the player with the most damage will be rewarded the win.",
+          "Lag/Settings: After getting on the helicopter, any complaints on lag or pre-game settings will not be taken into consideration. No exceptions",
+          "Friendly Fire/Interference: Friendly Fire is not allowed. Admins may use their discretion to assess situations involving Friendly Fire & Interference. While we make the best effort possible to maintain a fair and consistent experience, all interference calls are strictly at admin discretion.",
+          "Disconnections: If a player disconnects in the pre-game warm-up, the game must be replayed. If you disconnect during game play, it is treated like a death. Your score is equal to the number of kills you had when you disconnected. Your opponent can continue to play even after you have disconnected from the match.",
+          "Kill Stealing: Kill-stealing is not against the rules."
+        ]
+      }
+    },
+    "GamexarenaRules": {
+      "title": "GAME X ARENA RULES",
+      "fortnite": {
+        "list1": [
+          "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arenawe lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+          "We highly recommend recording all match results, disconnections, broken rules, etc.",
+          "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+          "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+          "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "Epic Games Usernames: This match is only valid if played between the Epic Games Usernames listed above. If you agree to play the whole match and lose, then dispute - your dispute will not be taken into consideration.",
+          "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+          "if the number of participants in a tournament is less than 5000, the prize will be reduced to 1/10 and the remaining price will be given with the next tournament.",
+          "Warning: Submitting fake or false results will result in immediate financial penalties.",
+          "1st Strike = 5 Euro /TL ",
+          "2nd Strike = 25 Euro/TL ",
+          "3rd Strike = 100% Balance Removal + Ban",
+          "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arena we lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+          "We highly recommend recording all match results, disconnections, broken rules, etc.",
+          "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+          "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+          "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "How This Works",
+          "Xbox Gamertags/Epic Gamernames: This match is only valid if played between the Xbox Gamertags/Epic Gamernames listed above. If you agree to play the whole match and lose, then dispute - your dispute will not be taken into consideration.",
+          "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+          "if the number of participants in a tournament is less than 5000, the prize will be reduced to 1/10 and the remaining price will be given with the next tournament.",
+          "Warning: Submitting fake or false results will result in immediate financial penalties.",
+          "1st Strike =   5 Euro /TL ",
+          "2nd Strike =   25 Euro/TL",
+          "3rd Strike = 100% Balance Removal + Ban",
+          "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arena we lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+          "We highly recommend recording all match results, disconnections, broken rules, etc.",
+          "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+          "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+          "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "How This Works",
+          "PSN Usernames/ Xbox Gamertags : This match is only valid if played between the PSN Usernames/ Xbox Gamertags  listed above. If you agree to play the whole match and lose, then dispute - your dispute will not be taken into consideration.",
+          "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+          "if the number of participants in a tournament is less than 5000, the prize will be reduced to 1/10 and the remaining price will be given with the next tournament.",
+          "Warning: Submitting fake or false results will result in immediate financial penalties.",
+          "1st Strike = 5 Euro/LT",
+          "2nd Strike = 25 Euro/TL",
+          "3rd Strike = 100% Balance Removal + Ban",
+          "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arena we lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+          "We highly recommend recording all match results, disconnections, broken rules, etc.",
+          "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+          "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+          "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+          "if the number of participants in a tournament is less than 5000, the prize will be reduced to 1/10 and the remaining price will be given with the next tournament.",
+          "Warning: Submitting fake or false results will result in immediate financial penalties.",
+          "1st Strike = 5 Euro /TL",
+          "2nd Strike = 25 Euro /TL",
+          "3rd Strike = 100% Balance Removal + Ban",
+          "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+        ]
+      }
+    }
+  },
+  "Rules": {
+    "title": "Game X Arena Rules",
+    "paragraphs1": [
+      "Each player must open a PAYPAL or SKRILL account to be paid.",
+      "The account for which the prize money is to be credited must be in the name of the player",
+      "Tournament winners, after receiving their money, have to share their photo with money via instagram with us. The tournaments are organized by Game X Arena . Players must follow Game X Arena's social accounts to support the Gamex Arena system. Game X  Arena does not charge any entry fee for sponsored tournaments.",
+      "Instagram accounts for www.gamexarena.com are @gamexarena and @gamexarena.eng",
+      "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arena we lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+      "We highly recommend recording all match results, disconnections, broken rules, etc.",
+      "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+      "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+      "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+      "Xbox Gamertags/Epic Gamernames/PSN name /Stream Name: This match is only valid if played between the Xbox Gamertags/Epic Gamernames/PSN name /Stream Name listed above. If you agree to play the whole match and lose, then dispute - your dispute will not be taken into consideration.",
+      "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+      "Warning: Submitting fake or false results will result in immediate financial penalties."
+    ],
+    "list1": [
+      "1st Strike = 5 Euro/TL",
+      "2nd Strike = 25 Euro/TL",
+      "3rd Strike = 100% Balance Removal + Ban"
+    ],
+    "paragraphs2": [
+      "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+    ]
+  },
+  "Cancel": "Cancel",
+  "Match": {
+    "NowPlaying": "Now Playing",
+    "EntryFee": "Entry Fee",
+    "GamerTag": "Add Gamer Tag",
+    "YouMayCancel": "You may cancel your open match at any time",
+    "Cancel": "Cancel",
+    "Prize": "Prize",
+    "Acceptance": "Waiting for Acceptance.",
+    "Join": "Join",
+    "MatchDetails": "Spieldetails",
+    "OpenMatches": "Open matches",
+    "OpenMatch": "Open match",
+    "YourMatch": "Your matches",
+    "SubmitScore": "Submit Score",
+    "gameRules": {
+      "title": "Game Rules",
+      "fortnite": {
+        "list1": [
+          "In the lobby of Fortnite Battle Royale, the first player (host) sets the game mode to Duo.",
+          "The host adds his opponent to the Epic Friends List and invites their opponents in the game.",
+          "After the invited player has come to the game, the Host starts the game.",
+          "After the first game, players change hosts and play again.",
+          "The player with the most kills at the end of both matches wins.",
+          "Game X Areana`s Game Rules for Fortnite Duo",
+          "You and your opponent will join the same game as a Duo team and compete to score the most kills.The player with the most kills at the end of the game wins.",
+          "Kills While Downed: Any kills scored while you’re downed count towards your final score. Kills scored after you die do not count towards your final score (e.g. from traps, or someone that you knocked down bleeding out).",
+          "Tiebreaker: If you and your opponent finish the game with the same amount of kills, play the match again until one player finishes with more kills than the other.",
+          "Lag/Settings: After getting on the bus, any complaints on lag or pre-game settings will not be taken into consideration. No exceptions.",
+          "Interference & Obstruction: You and your opponent may work together to secure kills. Stealing your opponents kills is allowed and part of the competitive nature.",
+          "Here are the things not allowed:",
+          "Breaking or purposely weakening any structure that your opponent has built or non built structures or cover by any means that is actively being used by your opponent.",
+          "Causing your opponent to miss shots. Building in front of or around your opponent (intentionally preventing movement)",
+          "Common things that are allowed: Attracting other opponents by firing guns around your teammate (opponent). Boxing yourself in around a loot crate or chest.Following your teammate (opponent).",
+          "Shooting down your own structure and launch pad (if you built them).",
+          "If you lose the game and feel your opponent interfered with your game play in any of the above prohibited ways, please dispute the match by submitting a winning score on your end. After you do that, please explain in the dispute what happened and provide video evidence of it happening within the time allowed during the dispute window. ",
+          "Please note that the above list is not all-inclusive. Admins may use their discretion to assess interference for things above or things in addition to the above. While we make the best effort possible to maintain a fair and consistent experience, all interference calls are strictly at admin discretion. ",
+          "We must have clear proof to warrant a forfeit.",
+          "Kill Stealing: Kill-stealing is not against the rules.",
+          "Disconnections: If a player disconnects in the pre-game warm-up, the game must be replayed. If you disconnect during game play, it is treated like a death. Your score is equal to the number of kills you had when you disconnected. Your opponent can continue to play even after you have disconnected from the match.",
+          "<br>",
+          "<br>",
+          "Game X Arena Rules",
+          "<hr>",
+          "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arenawe lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+          "We highly recommend recording all match results, disconnections, broken rules, etc.",
+          "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+          "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+          "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "Epic Games Usernames: This match is only valid if played between the Epic Games Usernames listed above. If you agree to play the whole match and lose, then dispute - your dispute will not be taken into consideration.",
+          "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+          "Warning: Submitting fake or false results will result in immediate financial penalties.",
+          "1st Strike = 5 Euro /TL ",
+          "2nd Strike = 25 Euro/TL ",
+          "3rd Strike = 100% Balance Removal + Ban",
+          "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+        ]
+      },
+      "pubg": {
+        "list1": [
+          "In the main pubg page, the first player sets the game mode to duo mode.",
+          "The host adds the second player in his friends list.",
+          "After the second player comes to the game, the first player starts the game.",
+          "The player with the most kills at the end of both games wins",
+          "Take a picture of your score as you die and send it to your opponent in match chat. This is a requirement. Otherwise, you are considered a loser.",
+          "Game Rules",
+          "You and your opponent will join the same game as a Duo team and compete to score the most kills.The player with the most kills at the end of the game wins.",
+          "Proof: Because you cannot see your opponent's kills on the scoreboard, you must provide proof of your kills for every game. At a minimum, you are required to have a picture of your kills when you die. You must share that picture with your opponent by posting a link to it in the match chat. (It can be hosted on gyazo, imgur, etc.)",
+          "Kills While Downed: Any kills scored while you’re downed count towards your final score. Kills scored after your death do not count towards your final score.",
+          "Tiebreaker: If you and your opponent finish the game with the same amount of kills, play the match again until one player finishes with more kills than the other.",
+          "Host: Unless otherwise agreed upon by the players involved, smokemadtrees will be the host of this match.",
+          "Interference/Messing With Your Opponent: You and your opponent in the match may work together to secure kills. However, you cannot actively impede your opponent during the course of the game. This includes team killing, intentionally preventing your opponent from moving, hitting them with grenades, etc.",
+          "Regarding vehicles: you can jump into your opponent’s vehicle, but anything can happen once you’re in there without penalty to your opponent. If your opponent drives off of a cliff or into something that kills you, this is not considered interference. Your opponent will not lose the game for it.",
+          "Proof of any violation will result in that game being forfeited.",
+          "We must have clear proof to warrant a forfeit.",
+          "Kill Stealing: Kill-stealing is not against the rules.",
+          "Disconnections: If a player disconnects in the pre-game warm-up, the game must be replayed. The game is considered to begin once you’re in the plane, not when you hit the ground. If you disconnect during game play, it is treated like a death. Your score is equal to the number of kills you had when you disconnected. Your opponent can continue to play even after you have disconnected from the game.",
+          "<br>",
+          "<br>",
+          "Game X Arena Rules",
+          "<hr>",
+          "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arena we lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+          "We highly recommend recording all match results, disconnections, broken rules, etc.",
+          "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+          "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+          "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "How This Works",
+          "Xbox Gamertags/Epic Gamernames: This match is only valid if played between the Xbox Gamertags/Epic Gamernames listed above. If you agree to play the whole match and lose, then dispute - your dispute will not be taken into consideration.",
+          "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+          "Warning: Submitting fake or false results will result in immediate financial penalties.",
+          "1st Strike =   5 Euro /TL ",
+          "2nd Strike =   25 Euro/TL",
+          "3rd Strike = 100% Balance Removal + Ban",
+          "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+        ]
+      },
+      "fifa-19": {
+        "list1": [
+          "Add your opponent via the PSN as a friend on the Playstation Network.",
+          "In Fifa, go to Online Tab and open the friendly match mode.",
+          "Start a new season or open an existing season with your opponent.",
+          "Check ,confirm the game rules and settings",
+          "Start the game",
+          "Lag/Settings/Teams: After 1 minute of gameplay any complaints on lag, pre-game settings, or banned teams will not be taken into consideration. No exceptions. (Note: connection is much better if you use a LAN cable instead of WiFi.)",
+          "Disconnections: In the event of a disconnection, you and your opponent must finish the remaining time of the match, keeping the score the same as it was in the game that got disconnected. i.e. If the disconnection occurred in the 30th minute, the new game should be played until the 60th. We highly recommend recording video of all game footage in case of a dispute. ",
+          "If you can't continue the match within 15 minutes of disconnecting, Game X Arena may rule on the match using our discretion. If you were losing, you will be given the loss. If you were winning, the match may be canceled or you may be given the loss depending on the circumstances. It is up to the player who was losing to reach out and attempt to play the match again. If you were losing and no attempt is made to play again within 15 minutes, you will lose the match.",
+          "Online Squads Only: Matches must be played with 'Online Squads' only. If there is any attempt to use Custom Squads or edited players, you will automatically forfeit the match and get a loss.",
+          "No Custom Formations: Custom Formations are not allowed to be used, unless agreed upon by the players involved. In case of a dispute, you MUST HAVE VIDEO EVIDENCE for it to be considered and the decision is at the discretion of Game X Arena",
+          "Drawing/Tying a Match: If the match ends in a draw, a new game must be played under the Golden Goal rules. The game will end when a goal is scored. If there is no goal scored in the Golden Goal match, then each player will have the option to cancel or agree to continue.",
+          "Legacy Defending: Legacy Defending is not allowed to be used in this match. In case of a dispute, you MUST HAVE VIDEO EVIDENCE for it to be considered and the decision is at the discretion of Game X Arena.",
+          "For a complete breakdown of all the rules, please visit our Rules & Scoring page. Play on!",
+          "<br>",
+          "<br>",
+          "Game X Arena Rules",
+          "<hr>",
+          "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arena we lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+          "We highly recommend recording all match results, disconnections, broken rules, etc.",
+          "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+          "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+          "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "How This Works",
+          "PSN Usernames/ Xbox Gamertags : This match is only valid if played between the PSN Usernames/ Xbox Gamertags  listed above. If you agree to play the whole match and lose, then dispute - your dispute will not be taken into consideration.",
+          "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+          "Warning: Submitting fake or false results will result in immediate financial penalties.",
+          "1st Strike = 5 Euro/LT",
+          "2nd Strike = 25 Euro/TL",
+          "3rd Strike = 100% Balance Removal + Ban",
+          "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+        ]
+      },
+      "cod-black-ops": {
+        "list1": [
+          "Add your opponent via the PSN as a friend on the Playstation Network.",
+          "Select the multiplayer mode.",
+          "Select Custom Game.",
+          "Press Triangle to invite your opponent from your friends list.",
+          "Select the map and settings.",
+          "Start the game",
+          "Game Settings: Unless otherwise specified, the following settings must be set to following:",
+          "You and your opponent will join a public match and play on the same team. Whoever ends the match with more kills than the other player wins.",
+          "Proof: You will need a screenshot of the After Action Report showing the final score with both players dead. But video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "Kills While Downed: Any kills scored while you’re downed count towards your final score. Kills scored after you die do not count towards your final score (e.g. from mines, or someone that you knocked down bleeding out).",
+          "Tiebreaker: If you and your opponent finish the game with the same amount of kills, the player with the most damage will be rewarded the win.",
+          "Lag/Settings: After getting on the helicopter, any complaints on lag or pre-game settings will not be taken into consideration. No exceptions",
+          "Friendly Fire/Interference: Friendly Fire is not allowed. Admins may use their discretion to assess situations involving Friendly Fire & Interference. While we make the best effort possible to maintain a fair and consistent experience, all interference calls are strictly at admin discretion.",
+          "Disconnections: If a player disconnects in the pre-game warm-up, the game must be replayed. If you disconnect during game play, it is treated like a death. Your score is equal to the number of kills you had when you disconnected. Your opponent can continue to play even after you have disconnected from the match.",
+          "Kill Stealing: Kill-stealing is not against the rules.",
+          "<br>",
+          "<br>",
+          "<h3> Game X Arena Rules </h3>",
+          "<hr>",
+          "If you receive an invitation on your console that does not match the rules laid out on this match page, DO NOT play the match. If you play the match, lose and submit a dispute, Game X Arena admins will not approve your dispute. Here at Game X Arena we lean towards fair play, before making any decision we will review and lean towards a fair decision strictly up to us.",
+          "We highly recommend recording all match results, disconnections, broken rules, etc.",
+          "If a player breaks a rule when they are losing the match or the match is tied and their opponent quits the match immediately, the player who broke the rule will lose the match.",
+          "If a player breaks a rule when they are in the lead and their opponent quits the match immediately, the match will be canceled and The player ,which didnt break the rule ,will be refunded this entry fees. The player who broke the rule will be charged 2 x Enter fee .",
+          "Proof: Video proof is the best evidence you can submit to us. It’s very easy to record on your console.",
+          "Score Auto Confirms After 30 Min: Once a score is reported, the other player has 30 minutes to confirm or counter before the first score reported is automatically confirmed.",
+          "Warning: Submitting fake or false results will result in immediate financial penalties.",
+          "1st Strike = 5 Euro /TL",
+          "2nd Strike = 25 Euro /TL",
+          "3rd Strike = 100% Balance Removal + Ban",
+          "Any match requiring multiple games must be ready to play within 15 minutes of the last game. Failing to do so will result in a forfeit."
+        ]
+      }
+    },
+    "JoinMatchFor": "Join match for",
+    "WaitingAcceptance": "waiting for acceptance",
+    "Accept": "Accept",
+    "Deny": "Reject",
+    "HasJoined": "is joined your match.",
+    "EnterScore": "Enter Score",
+    "LeaveMatch": "Leave this match",
+    "Step": "Step",
+    "AddedOpponent": "I have added my opponent",
+    "OpponentJoined": "My opponent has joined",
+    "Draw": "There is a draw - Pplease make sure a player wins this match!"
+  },
+  "CreateMatch": {
+    "title": "Create Match",
+    "Crossplay": {
+      "Console": "Crossplay (PS4/XB1 Only)",
+      "All": "Crossplay (PS4/XB1/PC)"
+    },
+    "CustomAmount": "Custom Amount",
+    "ChooseConsole": "CHOOSE YOUR CONSOLE",
+    "ChooseGame": "CHOOSE A GAME",
+    "YourWager": "YOUR WAGER",
+    "GameRules": "GAME RULES",
+    "WagerLimit": "Unter 1€ kann kein Spiel gestartet werden",
+    "NoPlatformSelect": "You cannot proceed without selecting a platform.",
+    "NoGameSelect": "You cannot proceed without selecting a game.",
+    "NoWager": "You cannot proceed without selecting a stake."
+  },
+  "Notifications": {
+    "MatchCreated": "Your match is created.",
+    "AddedOpponent": "Your opponent added you.",
+    "JoinedOpponent": "Your opponent has confirmed that you have added.",
+    "OpponentJoined": "Your opponent joined the game and waiting for you.",
+    "OpponentLeaved": "Your opponent leave the game.",
+    "JoinAccepted": "You've been accepted to the game you want to join",
+    "JoinDenied": "You've been rejected to the game you want to join",
+    "ScoreEntered": "Your opponent entered the match score, please enter the score in 15 minutes.",
+    "ScoreApproved": "Your opponent has approved the score.",
+    "MatchDispute": "There is a dispute in the score notification. Please send a screenshot."
+  },
+  "Services": {
+    "Tournaments": {
+      "Match Length": "Match Length",
+      "Game Type": "Game Type",
+      "Game Map": "Game Map",
+      "Game Perspective": "Game Perspective",
+      "Star Level": "Star Level",
+      "Legacy Defending": "Legacy Defending",
+      "Half Length": "Half Length",
+      "Team Type": "Team Type",
+      "Ruleset": "Ruleset",
+      "Team Size": "Team Size"
+    }
+  },
+  "Auth": {
+    "Login": "LOGIN",
+    "Register": "REGISTER",
+    "ForgotPassword": "FORGOT PASSWORD?",
+    "EnterMail": "Enter your email address to reset your password.",
+    "Email": "E-mail",
+    "Password": "Password",
+    "FormReach": "Your form has reached us. Thank you."
+  },
+  "TransactionHistory": {
+    "AccountBalance": "Account Balance",
+    "Balance": "Balance",
+    "BonusBalance": "Bonus Balance",
+    "Type": "Type",
+    "Status": "Status",
+    "Amount": "Amount",
+    "Description": "Method/Description",
+    "Date": "Date/Time",
+    "PaymentType": "Payment Type",
+    "Total": "Total"
+  },
+  "Disputes": {
+    "1": "Match Dispute",
+    "2": "This match has entered the dispute process because both players submitted contradicting results. Please submit evidence below showing that you won, and we'll award the winnings to the correct player.Disputes will be resolved within 24 hours, please be patient.",
+    "3": "Reminder:",
+    "4": "Submitting fake or false results will result in immediate financial penalties.",
+    "5": "1st Strike = 5€",
+    "6": "2nd Strike = 25€",
+    "7": "3rd Strike = 100% Balance Removal + Ban",
+    "8": "Please upload pictures/screenshots of your match by clicking the button below.Show us who won, what the score was, and make sure that your gamertags are visible."
+  }
+}
